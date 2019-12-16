@@ -1,0 +1,875 @@
+html,
+body {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif
+}
+
+p {
+    margin: 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none!important
+}
+
+ul {
+    list-style-type: none
+}
+
+@font-face {
+    font-family: proximaNovaBold;
+    src: url(../fonts/ProximaNovaBold.ttf)
+}
+
+@font-face {
+    font-family: proximaNovaRegular;
+    src: url(../fonts/ProximaNovaRegular.ttf)
+}
+
+@font-face {
+    font-family: proximaNovaLight;
+    src: url(../fonts/ProximaNovaLight.ttf)
+}
+
+@font-face {
+    font-family: gothamSSmBold;
+    src: url(../fonts/GothamSSm-Bold.otf)
+}
+
+@font-face {
+    font-family: gothamSSmBook;
+    src: url(../fonts/GothamSSm-Book.otf)
+}
+
+@font-face {
+    font-family: gothamSSmMedium;
+    src: url(../fonts/GothamSSm-Medium.otf)
+}
+
+@font-face {
+    font-family: LibreBaskerville-Bold;
+    src: url(../fonts/LibreBaskerville-Bold.ttf)
+}
+
+@font-face {
+    font-family: LibreBaskerville-Italic;
+    src: url(../fonts/LibreBaskerville-Italic.ttf)
+}
+
+@font-face {
+    font-family: LibreBaskerville-Regular;
+    src: url(../fonts/LibreBaskerville-Regular.ttf)
+}
+
+nav {
+    z-index: 4;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #fff
+}
+
+nav.myNavbar {
+    padding: 0;
+    padding-top: 35px;
+    padding-bottom: 35px
+}
+
+nav .myNavbarList a {
+    font-size: 16px;
+    color: #333!important;
+    font-family: proximaNovaBold;
+    letter-spacing: 2px
+}
+
+nav .myNavbarToggler,
+nav .myNavbarToggler:focus {
+    color: #422e2b!important;
+    border: 0;
+    outline: none
+}
+
+nav .myNavbarTogglerIcon {
+    color: #422e2b;
+    position: relative;
+    top: -2px
+}
+
+nav .myNavbarBrand {
+    font-size: 16px;
+    color: #333!important;
+    font-family: proximaNovaBold;
+    letter-spacing: 2px
+}
+
+.myNavbarTogglerClose {
+    display: none
+}
+
+.navbarOverlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #fff;
+    z-index: 3;
+    display: none
+}
+
+header.homepage {
+    width: 100%;
+    height: auto;
+    background-color: #F6F6F6;
+    /*background: url(../img/bokeh-bg.jpg); /*background image?*/
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 100px
+}
+
+header.homepage .left {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px
+}
+
+header.homepage .whiteRectangle {
+    width: 125px;
+    height: 125px;
+    background-color: #fff
+}
+
+header.homepage .left .title {
+    font-size: 72px;
+    color: #333;
+    font-family: LibreBaskerville-Bold;
+    position: relative;
+    top: 2px
+}
+
+header.homepage .left .article {
+    color: #333;
+    font-family: LibreBaskerville-Regular;
+    position: relative;
+    bottom: 2px
+}
+
+header.homepage .left .title,
+header.homepage .left .article {
+    position: relative;
+    z-index: 2
+}
+
+.seeMyWork {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 100px 0
+}
+
+.seeMyWork .header {
+    width: 100%;
+    height: auto;
+    text-align: center
+}
+
+.seeMyWork .header .title {
+    font-size: 36px;
+    font-family: ProximaNovaBold;
+    color: #333
+}
+
+.seeMyWork .seeMyWorkContent {
+    padding: 0!important;
+    margin: 0!important
+}
+
+.seeMyWork .seeMyWorkRow {
+    height: auto;
+    margin-top: 100px;
+    padding: 0!important
+}
+
+.seeMyWork .seeMyWorkRow .left .leftList {
+    color: #333;
+    font-family: ProximaNovaLight;
+    font-size: 24px
+}
+
+.seeMyWork .seeMyWorkRow .left .leftTitle {
+    color: #333;
+    font-family: ProximaNovaBold;
+    margin-top: 25px;
+    font-size: 36px
+}
+
+.seeMyWork .seeMyWorkRow .left .leftBar {
+    width: 110px;
+    height: 7px;
+    margin-top: 15px;
+    background-color: #484848
+}
+
+.seeMyWork .seeMyWorkRow .left .leftButton {
+    width: 100%;
+    max-width: 375px;
+    height: 63px;
+    margin-top: 40px;
+    background-color: #780000
+}
+
+.seeMyWork .seeMyWorkRow .left .leftButton p {
+    line-height: 63px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-family: ProximaNovaBold
+}
+
+.seeMyWork .seeMyWorkRow .right .claims {
+    width: 100%;
+    max-width: 375px;
+    background-color: #3A5A78;
+    padding: 30px 0;
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 9px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 9px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 9px -4px rgba(0, 0, 0, 0.75)
+}
+
+.seeMyWork .seeMyWorkRow .right .claims p {
+    font-family: gothamSSmBook;
+    font-size: 24px;
+    color: #fff
+}
+
+.seeMyWork .seeMyWorkRow .right .claims p img {
+    margin-right: 15px
+}
+
+.seeMyWork .seeMyWorkRow .right .maternity {
+    width: 100%;
+    max-width: 375px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F6F6F9;
+    -webkit-box-shadow: 5px 5px 9px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 9px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 9px -4px rgba(0, 0, 0, 0.75)
+}
+
+.seeMyWork .seeMyWorkRow .right .maternity .title {
+    font-size: 24px;
+    color: #484848;
+    font-family: gothamSSmBold;
+    text-align: center
+}
+
+.seeMyWork .seeMyWorkRow .right .maternity .p1 {
+    font-size: 14px;
+    font-family: gothamSSmBold;
+    color: #484848;
+    margin-left: 15px;
+    margin-top: 15px
+}
+
+.seeMyWork .seeMyWorkRow .right .maternity .date {
+    font-size: 18px;
+    font-family: gothamSSmBook;
+    color: #484848;
+    margin-left: 15px
+}
+
+.seeMyWork .seeMyWorkRow .right .maternity .claimApproved {
+    font-size: 18px;
+    font-family: gothamSSmBold;
+    color: #484848;
+    margin-left: 15px;
+    margin-top: 15px
+}
+
+.seeMyWork .seeMyWorkRow .right .maternity .claimApproved img {
+    position: relative;
+    top: -2px;
+    margin-right: 20px
+}
+
+.seeMyWork .seeMyWorkRow .right .payments {
+    width: 100%;
+    max-width: 375px;
+    background-color: #F6F6F9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-box-shadow: 5px 5px 9px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 9px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 9px -4px rgba(0, 0, 0, 0.75)
+}
+
+.seeMyWork .seeMyWorkRow .right .payments .p1 {
+    color: #484848;
+    font-size: 18px;
+    font-family: gothamSSmBook
+}
+
+.seeMyWork .seeMyWorkRow .right .payments .p2 {
+    color: #484848;
+    font-size: 18px;
+    font-family: gothamSSmBold
+}
+
+.seeMyWork .seeMyWorkRow .right .payments .p2 img {
+    margin: 0 5px;
+    position: relative;
+    top: -3px
+}
+
+.seeMyWork .seeMyWorkRow .right .claimDetails {
+    width: 100%;
+    max-width: 375px;
+    background-color: #F6F6F9;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    -webkit-box-shadow: 5px 5px 9px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 9px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 9px -4px rgba(0, 0, 0, 0.75)
+}
+
+.seeMyWork .seeMyWorkRow .right .claimDetails .p1 {
+    font-size: 18px;
+    font-family: gothamSSmBold;
+    color: #206BAC
+}
+
+.seeMyWork .seeMyWorkRow .right .claimDetails .p1 img {
+    position: relative;
+    top: -2px;
+    margin-left: 10px
+}
+
+.testimonial1 {
+    width: 100%;
+    height: auto;
+    background-color: #fff
+}
+
+.testimonial1 .testimonial1Content {
+    padding: 0!important;
+    margin: 0!important
+}
+
+.testimonial1 .testimonial1Row {
+    height: auto;
+    padding: 0!important
+}
+
+.testimonial1 .testimonial1Row .left .leftList {
+    color: #333;
+    font-family: ProximaNovaLight;
+    font-size: 24px
+}
+
+.testimonial1 .testimonial1Row .left .leftTitle {
+    color: #333;
+    font-family: ProximaNovaBold;
+    margin-top: 25px;
+    font-size: 36px
+}
+
+.testimonial1 .testimonial1Row .left .leftBar {
+    width: 110px;
+    height: 7px;
+    margin-top: 15px;
+    background-color: #484848
+}
+
+.testimonial1 .testimonial1Row .left .leftButton {
+    width: 100%;
+    max-width: 375px;
+    height: 63px;
+    margin-top: 40px;
+    background-color: #780000
+}
+
+.testimonial1 .testimonial1Row .left .leftButton p {
+    line-height: 63px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-family: ProximaNovaBold
+}
+
+.testimonial2 {
+    width: 100%;
+    height: auto;
+    background-color: #fff
+}
+
+.testimonial2 .testimonial2Content {
+    padding: 0!important;
+    margin: 0!important
+}
+
+.testimonial2 .testimonial2Row {
+    height: auto;
+    padding: 0!important
+}
+
+.testimonial2 .testimonial2Row .left .leftList {
+    color: #333;
+    font-family: ProximaNovaLight;
+    font-size: 24px
+}
+
+.testimonial2 .testimonial2Row .left .leftTitle {
+    color: #333;
+    font-family: ProximaNovaBold;
+    margin-top: 25px;
+    font-size: 36px
+}
+
+.testimonial2 .testimonial2Row .left .leftBar {
+    width: 110px;
+    height: 7px;
+    margin-top: 15px;
+    background-color: #484848
+}
+
+.testimonial2 .testimonial2Row .left .leftButton {
+    width: 100%;
+    max-width: 375px;
+    height: 63px;
+    margin-top: 40px;
+    background-color: #780000
+}
+
+.testimonial2 .testimonial2Row .left .leftButton p {
+    line-height: 63px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-family: ProximaNovaBold
+}
+
+footer.footer1 .title {
+    color: #333;
+    font-family: proximaNovaBold;
+    font-size: 36px
+}
+
+footer.footer1 .subtitle {
+    color: #333;
+    font-family: proximaNovaLight;
+    font-size: 20px;
+    margin-top: 40px
+}
+
+footer.footer1 .subtitle span {
+    color: #5375FB;
+    font-family: proximaNovaBold;
+    font-size: 20px
+}
+
+@media (max-width: 576px) {
+    nav .myNavbarBrand {
+        padding-left: 20px!important
+    }
+    nav .myNavbarToggler {
+        padding-right: 20px!important
+    }
+    nav .myNavbarList a {
+        margin: 0!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        padding-top: 70px
+    }
+    nav .navbarArrows {
+        display: inline-block;
+        float: right
+    }
+    nav .navbarBar {
+        width: 100%;
+        height: 5px;
+        z-index: 5;
+        background-color: #F6F6F6;
+        position: fixed;
+        top: 100px;
+        left: 0
+    }
+    header.homepage {
+        padding: 45px 0
+    }
+    header.homepage .left {
+        text-align: center;
+        display: block
+    }
+    header.homepage .right {
+        text-align: center;
+        display: block
+    }
+    header.homepage .right .headerAvatar {
+        width: 100%;
+        max-width: 320px;
+        margin-right: 0!important
+    }
+    header.homepage .left {
+        padding-left: 20px
+    }
+    header.homepage .whiteRectangle {
+        position: absolute;
+        top: 0;
+        left: 20px
+    }
+    .seeMyWork .seeMyWorkRow {
+        padding: 0 20px
+    }
+    .seeMyWork .seeMyWorkRow .right,
+    .seeMyWork .seeMyWorkRow .right .payments,
+    .seeMyWork .seeMyWorkRow .right .maternity,
+    .seeMyWork .seeMyWorkRow .right .claimDetails {
+        margin-top: 25px!important
+    }
+    .seeMyWork {
+        padding: 50px 0
+    }
+    .seeMyWork .seeMyWorkRow {
+        margin-top: 50px
+    }
+    .seeMyWork .seeMyWorkRow .right .payments,
+    .seeMyWork .seeMyWorkRow .right .claimDetails {
+        padding-left: 15px
+    }
+    .seeMyWork .seeMyWorkRow .right .maternity,
+    .seeMyWork .seeMyWorkRow .right .payments,
+    .seeMyWork .seeMyWorkRow .right .claimDetails,
+    .seeMyWork .seeMyWorkRow .right .claims,
+    .seeMyWork .seeMyWorkRow .left .leftButton {
+        margin-left: auto;
+        margin-right: auto
+    }
+    .seeMyWork .seeMyWorkRow .left {
+        text-align: right
+    }
+    .seeMyWork .seeMyWorkRow .left .leftBar {
+        margin-right: 0;
+        margin-left: auto
+    }
+    .testimonial1 .left,
+    .testimonial1 .right {
+        text-align: center
+    }
+    .testimonial1 .right {
+        margin-top: 25px!important
+    }
+    .testimonial1 .right .leftBar,
+    .testimonial1 .right .leftButton {
+        margin: 0 auto
+    }
+    .testimonial1 .left img {
+        width: 250px;
+        height: 300px
+    }
+    .testimonial2 {
+        padding: 50px 0
+    }
+    .testimonial2 .left,
+    .testimonial2 .right {
+        text-align: center
+    }
+    .testimonial2 .right {
+        margin-top: 25px!important
+    }
+    .testimonial2 .left .leftBar,
+    .testimonial2 .left .leftButton {
+        margin: 0 auto
+    }
+    .testimonial2 .right img {
+        width: 250px;
+        height: 193px
+    }
+    footer.footer1 {
+        height: 350px;
+        width: 100%;
+        background-color: #F6F6F6;
+        text-align: center
+    }
+    footer.footer1 .title {
+        margin-top: 25px
+    }
+}
+
+@media (min-width: 576px) {
+    nav .myNavbarBrand {
+        padding-left: 20px!important
+    }
+    nav .myNavbarToggler {
+        padding-right: 20px!important
+    }
+    nav .myNavbarList a {
+        margin: 0!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        margin: 0!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        padding-top: 70px
+    }
+    nav .navbarArrows {
+        display: inline-block;
+        float: right
+    }
+    nav .navbarBar {
+        width: 100%;
+        height: 5px;
+        z-index: 5;
+        background-color: #F6F6F6;
+        position: fixed;
+        top: 100px;
+        left: 0
+    }
+    header.homepage {
+        padding: 45px 0
+    }
+    header.homepage .left {
+        text-align: left;
+        display: block
+    }
+    header.homepage .left .article {
+        font-size: 14px
+    }
+    header.homepage .right {
+        text-align: left;
+        display: block
+    }
+    header.homepage .right .headerAvatar {
+        width: 100%;
+        max-width: 362px;
+        margin-right: 0!important
+    }
+    header.homepage .left {
+        padding-left: 35px
+    }
+    header.homepage .whiteRectangle {
+        position: absolute;
+        top: 0;
+        left: 20px
+    }
+    .seeMyWork .seeMyWorkRow {
+        padding: 0 20px
+    }
+    .seeMyWork .seeMyWorkRow .right,
+    .seeMyWork .seeMyWorkRow .right .payments,
+    .seeMyWork .seeMyWorkRow .right .maternity,
+    .seeMyWork .seeMyWorkRow .right .claimDetails,
+    .seeMyWork .seeMyWorkRow .right .claims {
+        margin-top: 25px
+    }
+    .seeMyWork .seeMyWorkRow {
+        margin-top: 50px
+    }
+    .seeMyWork .seeMyWorkRow .right .payments,
+    .seeMyWork .seeMyWorkRow .right .claimDetails {
+        padding-left: 15px
+    }
+    .seeMyWork .seeMyWorkRow .right .maternity,
+    .seeMyWork .seeMyWorkRow .right .payments,
+    .seeMyWork .seeMyWorkRow .right .claimDetails,
+    .seeMyWork .seeMyWorkRow .right .claims,
+    .seeMyWork .seeMyWorkRow .left .leftButton {
+        margin-left: auto;
+        margin-right: auto
+    }
+    .seeMyWork .seeMyWorkRow .left {
+        text-align: center
+    }
+    .seeMyWork .seeMyWorkRow .left .leftBar {
+        margin-right: auto;
+        margin-left: auto
+    }
+    .testimonial1 .left,
+    .testimonial1 .right {
+        text-align: center
+    }
+    .testimonial1 .left {
+        padding-bottom: 25px
+    }
+    .testimonial1 .right .leftBar,
+    .testimonial1 .right .leftButton {
+        margin: 0 auto
+    }
+    .testimonial1 .left img {
+        width: 250px;
+        height: 300px
+    }
+    .testimonial2 {
+        padding: 50px 0
+    }
+    .testimonial2 .left,
+    .testimonial2 .right {
+        text-align: center
+    }
+    .testimonial2 .left {
+        padding-bottom: 25px
+    }
+    .testimonial2 .left .leftBar,
+    .testimonial2 .left .leftButton {
+        margin: 0 auto
+    }
+    .testimonial2 .right img {
+        width: 250px;
+        height: 193px
+    }
+    footer.footer1 {
+        height: 240px;
+        width: 100%;
+        background-color: #F6F6F6;
+        text-align: center
+    }
+    footer.footer1 .title {
+        margin-top: 40px
+    }
+}
+
+@media (min-width: 768px) {
+    nav .myNavbarList a {
+        margin: 0!important;
+        padding-left: 25px!important;
+        padding-right: 25px!important;
+        padding-top: 0
+    }
+    nav .myNavbarList a:first-child {
+        padding-left: 0!important
+    }
+    nav .myNavbarList a:last-child {
+        padding-right: 5px!important
+    }
+    nav .myNavbarBrand {
+        padding-left: 0!important
+    }
+    nav .navbarArrows,
+    nav .navbarBar {
+        display: none
+    }
+    header.homepage {
+        padding: 145px 0
+    }
+    header.homepage .left {
+        text-align: left;
+        display: inline-block;
+        vertical-align: middle
+    }
+    header.homepage .right {
+        text-align: right;
+        display: inline-block;
+        vertical-align: middle
+    }
+    header.homepage .left .article {
+        font-size: 18px
+    }
+    header.homepage .left {
+        padding-left: 45px
+    }
+    header.homepage .whiteRectangle {
+        position: absolute;
+        top: 0;
+        left: 10px
+    }
+    .seeMyWork .seeMyWorkRow {
+        padding-left: 10px
+    }
+    .seeMyWork .seeMyWorkRow .right .maternity,
+    .seeMyWork .seeMyWorkRow .right .payments,
+    .seeMyWork .seeMyWorkRow .right .claimDetails,
+    .seeMyWork .seeMyWorkRow .right .claims {
+        float: right
+    }
+    .seeMyWork .seeMyWorkRow .left .leftButton {
+        float: left
+    }
+    .seeMyWork {
+        padding-top: 100px
+    }
+    .seeMyWork .seeMyWorkRow .right .claims {
+        margin-top: 50px
+    }
+    .seeMyWork .seeMyWorkRow .right .payments,
+    .seeMyWork .seeMyWorkRow .right .maternity,
+    .seeMyWork .seeMyWorkRow .right .claimDetails {
+        margin-top: 50px!important
+    }
+    .seeMyWork .seeMyWorkRow .left {
+        text-align: left
+    }
+    .seeMyWork .seeMyWorkRow .left .leftBar {
+        margin-left: 0;
+       /* margin-left: auto*/
+    }
+    .testimonial1 .left {
+        text-align: left
+    }
+    .testimonial1 .right {
+        text-align: right
+    }
+    .testimonial1 .right .leftButton,
+    .testimonial1 .right .leftBar {
+        margin-left: 0
+    }
+    .testimonial2 .left {
+        text-align: left
+    }
+    .testimonial2 .right {
+        text-align: right
+    }
+    .testimonial2 .left .leftButton,
+    .testimonial2 .left .leftBar {
+        margin-left: 0
+    }
+}
+
+@media (min-width: 992px) {
+    header.homepage .left .article {
+        font-size: 24px
+    }
+    .testimonial1 .left img {
+        width: 370px;
+        height: 451px
+    }
+    .testimonial2 {
+        padding: 100px 0
+    }
+    .testimonial2 .right img {
+        width: 367px;
+        height: 284px
+    }
+    footer.footer1 {
+        height: 350px;
+        width: 100%;
+        background-color: #F6F6F6;
+        text-align: center
+    }
+    footer.footer1 .title {
+        margin-top: 100px
+    }
+}
