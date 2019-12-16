@@ -7,7 +7,12 @@ body {
 body {
     position: relative;
     overflow-y: auto;
-    overflow-x: hidden
+    overflow-x: hidden;
+    background: url(../img/bokeh-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 * {
@@ -130,8 +135,6 @@ nav .myNavbarBrand {
 header.homepage {
     width: 100%;
     height: auto;
-    background-color: #F6F6F6;
-    /*background: url(../img/bokeh-bg.jpg); /*background image?*/
     position: relative;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -140,7 +143,7 @@ header.homepage {
     -webkit-align-items: center;
     -webkit-box-align: center;
     align-items: center;
-    margin-top: 100px
+    margin: 100px 0;
 }
 
 header.homepage .left {
@@ -150,22 +153,22 @@ header.homepage .left {
     padding-right: 20px
 }
 
-header.homepage .whiteRectangle {
+/*header.homepage .rectangle {
     width: 125px;
     height: 125px;
-    background-color: #fff
-}
+    background-color: #33D08F
+}*/
 
 header.homepage .left .title {
     font-size: 72px;
-    color: #333;
+    color: #fff;
     font-family: sinkinSansBlack;
     position: relative;
     top: 2px
 }
 
 header.homepage .left .article {
-    color: #333;
+    color: #fff;
     font-family: sinkinSansRegular;
     position: relative;
     bottom: 2px
@@ -180,7 +183,6 @@ header.homepage .left .article {
 .seeMyWork {
     width: 100%;
     height: auto;
-    background-color: #090909;
     padding: 100px 0
 }
 
@@ -237,7 +239,7 @@ header.homepage .left .article {
 
 .seeMyWork .seeMyWorkRow .left .leftButton p {
     margin: 30px 0 20px 0;
-    text-align: center;
+    text-align: left;
     color: #33D08F;
     font-size: 20px;
     font-family: menlo;
@@ -372,7 +374,7 @@ footer.footer1 {
 footer.footer1 .title {
     color: #090909;
     font-family: sinkinSansBlack;
-    font-size: 36px
+    font-size: 55px
 }
 
 footer.footer1 .subtitle {
@@ -418,7 +420,7 @@ footer.footer1 .subtitle span {
         padding: 45px 0
     }
     header.homepage .left {
-        text-align: center;
+        text-align: left;
         display: block
     }
     header.homepage .right {
@@ -433,7 +435,7 @@ footer.footer1 .subtitle span {
     header.homepage .left {
         padding-left: 20px
     }
-    header.homepage .whiteRectangle {
+    header.homepage .rectangle {
         position: absolute;
         top: 0;
         left: 20px
@@ -466,7 +468,7 @@ footer.footer1 .subtitle span {
         margin-right: auto
     }
     .seeMyWork .seeMyWorkRow .left {
-        text-align: right
+        text-align: left
     }
     .seeMyWork .seeMyWorkRow .left .leftBar {
         margin-right: 0;
@@ -532,7 +534,7 @@ footer.footer1 .subtitle span {
     header.homepage .left {
         padding-left: 35px
     }
-    header.homepage .whiteRectangle {
+    header.homepage .rectangle {
         position: absolute;
         top: 0;
         left: 20px
@@ -603,7 +605,7 @@ footer.footer1 .subtitle span {
         height: 193px
     }
     footer.footer1 {
-        height: 240px;
+        height: 1024px;
         width: 100%;
     }
     footer.footer1 .title {
@@ -650,7 +652,7 @@ footer.footer1 .subtitle span {
     header.homepage .left {
         padding-left: 45px
     }
-    header.homepage .whiteRectangle {
+    header.homepage .rectangle {
         position: absolute;
         top: 0;
         left: 10px
@@ -723,10 +725,10 @@ footer.footer1 .subtitle span {
         height: 284px
     }
     footer.footer1 {
-        height: 350px;
+        height: 1024px;
         width: 100%;
     }
     footer.footer1 .title {
-        margin-top: 100px
+        margin-top: 450px
     }
 }
