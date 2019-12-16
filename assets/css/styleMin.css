@@ -30,11 +30,6 @@ ul {
 }
 
 @font-face {
-    font-family: proximaNovaBold;
-    src: url(../fonts/ProximaNovaBold.ttf)
-}
-
-@font-face {
     font-family: proximaNovaRegular;
     src: url(../fonts/ProximaNovaRegular.ttf)
 }
@@ -79,6 +74,11 @@ ul {
     src: url(../fonts/SinkinSans-900XBlack.otf)
 }
 
+@font-face {
+    font-family: menlo;
+    src: url(../fonts/Menlo-Regular.ttf)
+}
+
 
 nav {
     z-index: 4;
@@ -99,8 +99,7 @@ nav.myNavbar {
 nav .myNavbarList a {
     font-size: 16px;
     color: #333!important;
-    font-family: proximaNovaBold;
-    letter-spacing: 2px
+    font-family: sinkinSansBold;
 }
 
 nav .myNavbarToggler,
@@ -119,8 +118,7 @@ nav .myNavbarTogglerIcon {
 nav .myNavbarBrand {
     font-size: 16px;
     color: #333!important;
-    font-family: proximaNovaBold;
-    letter-spacing: 2px
+    font-family: sinkinSansBold;
 }
 
 .myNavbarTogglerClose {
@@ -171,14 +169,14 @@ header.homepage .whiteRectangle {
 header.homepage .left .title {
     font-size: 72px;
     color: #333;
-    font-family: LibreBaskerville-Bold;
+    font-family: sinkinSansBlack;
     position: relative;
     top: 2px
 }
 
 header.homepage .left .article {
     color: #333;
-    font-family: LibreBaskerville-Regular;
+    font-family: sinkinSansRegular;
     position: relative;
     bottom: 2px
 }
@@ -204,7 +202,7 @@ header.homepage .left .article {
 
 .seeMyWork .header .title {
     font-size: 36px;
-    font-family: ProximaNovaBold;
+    font-family: sinkinSansBlack;
     color: #333
 }
 
@@ -227,7 +225,7 @@ header.homepage .left .article {
 
 .seeMyWork .seeMyWorkRow .left .leftTitle {
     color: #333;
-    font-family: ProximaNovaBold;
+    font-family: sinkinSansBlack;
     margin-top: 25px;
     font-size: 36px
 }
@@ -252,7 +250,7 @@ header.homepage .left .article {
     text-align: center;
     color: #fff;
     font-size: 24px;
-    font-family: ProximaNovaBold
+    font-family: sinkinSansBlack
 }
 
 .seeMyWork .seeMyWorkRow .right .claims {
@@ -399,7 +397,7 @@ header.homepage .left .article {
 
 .testimonial1 .testimonial1Row .left .leftTitle {
     color: #333;
-    font-family: ProximaNovaBold;
+    font-family: sinkinSansBlack;
     margin-top: 25px;
     font-size: 36px
 }
@@ -424,7 +422,7 @@ header.homepage .left .article {
     text-align: center;
     color: #fff;
     font-size: 24px;
-    font-family: ProximaNovaBold
+    font-family: sinkinSansBlack
 }
 
 .testimonial2 {
@@ -451,7 +449,7 @@ header.homepage .left .article {
 
 .testimonial2 .testimonial2Row .left .leftTitle {
     color: #333;
-    font-family: ProximaNovaBold;
+    font-family: sinkinSansBlack;
     margin-top: 25px;
     font-size: 36px
 }
@@ -476,12 +474,12 @@ header.homepage .left .article {
     text-align: center;
     color: #fff;
     font-size: 24px;
-    font-family: ProximaNovaBold
+    font-family: sinkinSansBlack
 }
 
 footer.footer1 .title {
     color: #333;
-    font-family: proximaNovaBold;
+    font-family: sinkinSansBlack;
     font-size: 36px
 }
 
@@ -494,7 +492,7 @@ footer.footer1 .subtitle {
 
 footer.footer1 .subtitle span {
     color: #5375FB;
-    font-family: proximaNovaBold;
+    font-family: sinkinSansBlack;
     font-size: 20px
 }
 
