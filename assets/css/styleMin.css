@@ -370,20 +370,20 @@ footer.footer1 {
 }
 
 footer.footer1 .title {
-    color: #333;
+    color: #090909;
     font-family: sinkinSansBlack;
     font-size: 36px
 }
 
 footer.footer1 .subtitle {
-    color: #333;
+    color: #090909;
     font-family: sinkinSansRegular;
     font-size: 20px;
     margin-top: 40px
 }
 
 footer.footer1 .subtitle span {
-    color: #5375FB;
+    color: #fff;
     font-family: sinkinSansBlack;
     font-size: 20px
 }
