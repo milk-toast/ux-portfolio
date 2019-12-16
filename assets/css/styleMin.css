@@ -92,8 +92,9 @@ nav.myNavbar {
 
 nav .myNavbarList a {
     font-size: 16px;
-    color: #fff!important;
-    font-family: sinkinSansBold;
+    color: #33D08F!important;
+    text-decoration: underline!important;
+    font-family: menlo;
 }
 
 nav .myNavbarToggler,
