@@ -30,16 +30,6 @@ ul {
 }
 
 @font-face {
-    font-family: proximaNovaRegular;
-    src: url(../fonts/ProximaNovaRegular.ttf)
-}
-
-@font-face {
-    font-family: proximaNovaLight;
-    src: url(../fonts/ProximaNovaLight.ttf)
-}
-
-@font-face {
     font-family: gothamSSmBold;
     src: url(../fonts/GothamSSm-Bold.otf)
 }
@@ -219,7 +209,7 @@ header.homepage .left .article {
 
 .seeMyWork .seeMyWorkRow .left .leftList {
     color: #333;
-    font-family: ProximaNovaLight;
+    font-family: sinkinSansRegular;
     font-size: 24px
 }
 
@@ -227,7 +217,7 @@ header.homepage .left .article {
     color: #333;
     font-family: sinkinSansBlack;
     margin-top: 25px;
-    font-size: 36px
+    font-size: 55px
 }
 
 .seeMyWork .seeMyWorkRow .left .leftBar {
@@ -391,7 +381,7 @@ header.homepage .left .article {
 
 .testimonial1 .testimonial1Row .left .leftList {
     color: #333;
-    font-family: ProximaNovaLight;
+    font-family: sinkinSansRegular;
     font-size: 24px
 }
 
@@ -443,7 +433,7 @@ header.homepage .left .article {
 
 .testimonial2 .testimonial2Row .left .leftList {
     color: #333;
-    font-family: ProximaNovaLight;
+    font-family: sinkinSansRegular;
     font-size: 24px
 }
 
@@ -485,7 +475,7 @@ footer.footer1 .title {
 
 footer.footer1 .subtitle {
     color: #333;
-    font-family: proximaNovaLight;
+    font-family: sinkinSansRegular;
     font-size: 20px;
     margin-top: 40px
 }
