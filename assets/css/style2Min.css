@@ -243,8 +243,8 @@ header.homepage2 .bottomHeader2 {
 
 
 .subHeader-t2 .content2 .subtitle {
-    font-family: sinkinSansBold;
-    color: #090909;
+    font-family: sinkinSansRegular;
+    color: #FF538F;
     text-align: left;
 }
 
@@ -441,43 +441,6 @@ header.homepage2 .bottomHeader2 {
     margin-left: 10px
 }
 
-.implementation {
-    padding-top: 30px;
-    padding-bottom: 40px
-}
-
-.implementation .implementationLeft {
-    display: inline-block;
-    vertical-align: top;
-    text-align: right
-}
-
-.implementation .implementationLeft .title {
-    color: #090909;
-    font-family: sinkinSansBold;
-    position: relative;
-    top: 6px
-}
-
-.implementation .implementationRight {
-    display: inline-block;
-    vertical-align: top;
-    text-align: right
-}
-
-.implementation .implementationRight .exploration,
-.implementation .implementationRight .sprints {
-    background-color: blue;
-    display: inline-block;
-    vertical-align: middle;
-    background-color: #780000;
-    margin-left: 5px
-}
-
-.implementation .implementationRight .sprints {
-    padding: 0 10px
-}
-
 @media (max-width: 576px) {
     nav .myNavbarBrand {
         padding-left: 20px!important
@@ -543,27 +506,6 @@ header.homepage2 .bottomHeader2 {
     }
     .subHeader-t2 .content2 .item2MarginBottom {
         margin-bottom: 50px
-    }
-    .implementation .implementationRight .exploration p,
-    .implementation .implementationRight .sprints p {
-        font-size: 10px;
-        font-family: sinkinSansBold;
-        color: #fff
-    }
-    .implementation .implementationRight .exploration {
-        padding: 0 25px
-    }
-    .implementation .implementationLeft .title {
-        font-size: 10px
-    }
-    .implementation .implementationLeft {
-        width: 70px
-    }
-    .implementation .implementationRight {
-        width: calc(100% - 70px)
-    }
-    .implementation .row {
-        margin-top: 25px
     }
 }
 
@@ -639,27 +581,6 @@ header.homepage2 .bottomHeader2 {
     .subHeader-t2 .content2 .item2MarginBottom {
         margin-bottom: 50px
     }
-    .implementation .implementationRight .exploration p,
-    .implementation .implementationRight .sprints p {
-        font-size: 10px;
-        font-family: sinkinSansBold;
-        color: #fff
-    }
-    .implementation .implementationRight .exploration {
-        padding: 0 35px
-    }
-    .implementation .implementationLeft .title {
-        font-size: 10px
-    }
-    .implementation .implementationLeft {
-        width: 70px
-    }
-    .implementation .implementationRight {
-        width: calc(100% - 70px)
-    }
-    .implementation .row {
-        margin-top: 15px
-    }
 }
 
 @media (min-width: 768px) {
@@ -712,27 +633,6 @@ header.homepage2 .bottomHeader2 {
     .subHeader-t2 .content2 .item3 .circle {
         margin-top: 0
     }
-    .implementation .implementationRight .exploration p,
-    .implementation .implementationRight .sprints p {
-        font-size: 12px;
-        font-family: sinkinSansBold;
-        color: #fff
-    }
-    .implementation .implementationRight .exploration {
-        padding: 0 50px
-    }
-    .implementation .implementationLeft .title {
-        font-size: 12px
-    }
-    .implementation .implementationLeft {
-        width: 125px
-    }
-    .implementation .implementationRight {
-        width: calc(100% - 125px)
-    }
-    .implementation .row {
-        margin-top: 10px
-    }
 }
 
 @media (min-width: 1200px) {
@@ -758,23 +658,5 @@ header.homepage2 .bottomHeader2 {
     }
     .subHeader-t2 .content2 .item2MarginBottom {
         margin-bottom: 300px
-    }
-    .implementation .implementationRight .exploration p,
-    .implementation .implementationRight .sprints p {
-        font-size: 14px;
-        font-family: sinkinSansBold;
-        color: #fff
-    }
-    .implementation .implementationRight .exploration {
-        padding: 0 75px
-    }
-    .implementation .implementationLeft .title {
-        font-size: 16px
-    }
-    .implementation .implementationLeft {
-        width: 185px
-    }
-    .implementation .implementationRight {
-        width: calc(100% - 185px)
     }
 }
