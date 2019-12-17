@@ -313,6 +313,11 @@ header.homepage2 .bottomHeader2 {
     margin: 0 auto
 }
 
+.contentCard {
+    width: 100%;
+    margin: 20px 0;
+}
+
 .elements1 {
     width: 100%;
     height: auto;
