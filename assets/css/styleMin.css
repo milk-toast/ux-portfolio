@@ -183,7 +183,7 @@ header.homepage .left .article {
 .header {
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding-top: 100px;
     text-align: left
 }
 
@@ -247,6 +247,13 @@ header.homepage .left .article {
     font-size: 20px;
     font-family: menlo;
     text-decoration: underline;
+}
+
+.seeMyWork .seeMyWorkRow .right .projectThumbBackground {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    z-index: -1;
 }
 
 .seeMyWork .seeMyWorkRow .right .claims {
@@ -399,6 +406,7 @@ footer.footer1 .subtitle span {
     font-size: 20px
 }
 
+/* Mobile */
 @media (max-width: 576px) {
     nav .myNavbarBrand {
         padding-left: 20px!important
@@ -492,7 +500,8 @@ footer.footer1 .subtitle span {
     }
 }
 
-@media (min-width: 576px) {
+/* Mobile / tablet hybrid */
+/*@media (min-width: 576px) {
     nav .myNavbarBrand {
         padding-left: 20px!important
     }
@@ -620,8 +629,9 @@ footer.footer1 .subtitle span {
     footer.footer1 .title {
         margin-top: 40px
     }
-}
+}*/
 
+/* Tablet */
 @media (min-width: 768px) {
     nav .myNavbarList a {
         margin: 0!important;
@@ -718,6 +728,7 @@ footer.footer1 .subtitle span {
     }
 }
 
+/* Desktop */
 @media (min-width: 992px) {
     header.homepage .left .article {
         font-size: 24px
