@@ -238,8 +238,9 @@ header.homepage2 .bottomHeader2 {
 .subHeader-t2 .content2 .title {
     font-family: sinkinSansBlack;
     color: #090909;
-    text-align: left
+    text-align: left;
 }
+
 
 .subHeader-t2 .content2 .subtitle {
     font-family: sinkinSansBold;
@@ -276,7 +277,7 @@ header.homepage2 .bottomHeader2 {
     width: 175px;
     height: 7px;
     background-color: #090909;
-    margin: 0 auto
+    margin: 150px auto;
 }
 
 .subHeader-t2 .content2 .item3 {
@@ -692,9 +693,6 @@ header.homepage2 .bottomHeader2 {
     .subHeader-t2Col .center {
         margin: 25px auto
     }
-    .subHeader-t2 .content2 .title {
-        margin-top: 25px
-    }
     .subHeader-t2 .content .subHeader-t2Col .item {
         font-size: 16px
     }
@@ -702,7 +700,7 @@ header.homepage2 .bottomHeader2 {
         font-size: 36px
     }
     .subHeader-t2 .content2 .bar {
-        margin-top: 25px
+        margin: 100px 0;
     }
     .subHeader-t2 .content2 .item3 .col {
         width: 100%;
@@ -712,7 +710,7 @@ header.homepage2 .bottomHeader2 {
         margin-top: 25px
     }
     .subHeader-t2 .content2 .item3 {
-        margin-top: 0
+        margin-top: 0;
     }
     .subHeader-t2 .content2 .subtitle {
         font-size: 16px
@@ -790,9 +788,6 @@ header.homepage2 .bottomHeader2 {
     .subHeader-t2Col .center {
         margin: 25px auto
     }
-    .subHeader-t2 .content2 .title {
-        margin-top: 25px
-    }
     .subHeader-t2 .content .subHeader-t2Col .item {
         font-size: 16px
     }
@@ -800,7 +795,7 @@ header.homepage2 .bottomHeader2 {
         font-size: 36px
     }
     .subHeader-t2 .content2 .bar {
-        margin-top: 25px
+        margin: 100px 0;
     }
     .subHeader-t2 .content2 .item3 .col {
         width: 100%;
@@ -885,11 +880,8 @@ header.homepage2 .bottomHeader2 {
     .subHeader-t2Col .center {
         margin: 0 auto
     }
-    .subHeader-t2 .content2 .title {
-        margin-top: 90px
-    }
     .subHeader-t2 .content2 .bar {
-        margin-top: 75px
+        margin: 100px 0;
     }
     .subHeader-t2 .content2 .item3 .col {
         width: 185px;
@@ -899,9 +891,6 @@ header.homepage2 .bottomHeader2 {
     }
     .subHeader-t2 .content2 .item3 .circle {
         margin-top: 0
-    }
-    .subHeader-t2 .content2 .item3 {
-        margin-top: 50px
     }
     .elements1 .content .center {
         margin: 75px auto
@@ -948,10 +937,10 @@ header.homepage2 .bottomHeader2 {
         font-size: 36px
     }
     .subHeader-t2 .content2 .bar {
-        margin-top: 175px
+        margin: 175px 0;
     }
     .subHeader-t2 .content2 .bar2 {
-        margin-top: 75px
+        margin: 75px 0;
     }
     .subHeader-t2 .content2 .subtitle {
         font-size: 20px
