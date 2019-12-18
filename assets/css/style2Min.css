@@ -10,10 +10,7 @@ body {
     overflow-x: hidden;
     /*background:url(../img/dots.png) repeat #f9f9ff;
     background-attachment: fixed;*/
-    background: #F6F6F9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f9f9ff, #F0F0FE);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f9f9ff, #F0F0FE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #FFFDEC;
 }
 
 * {
@@ -206,20 +203,29 @@ header.homepage2 .bottomHeader2 {
     text-align: left
 }
 
+
 .subHeader-t2 .content .year {
     font-family: silka-extralightitalic;
 }
 
 .subHeader-t2 .content .subHeader-t2Col .contentCol {
     width: calc(100% - 8px);
-    /*background-color: #fff;
-    border: 3px solid blue;*/
     padding: 25px 0
+}
+
+.subHeader-t2 .content .subHeader-t2Col .contentCol2 {
+    margin-top: 70px;
+}
+
+.subHeader-t2 .content .subHeader-t2Col .contentCol3 {
+    margin-top: 200px;
 }
 
 .subHeader-t2 .content .subHeader-t2Col .contentCol .title,
 .subHeader-t2 .content .subHeader-t2Col .contentCol .title span {
+    
     font-size: 12px;
+
 }
 
 .subHeader-t2 .content .subHeader-t2Col .right {
@@ -234,9 +240,10 @@ header.homepage2 .bottomHeader2 {
 }
 
 .subHeader-t2 .content .subHeader-t2Col .title span {
+    margin-left: 10px;
     font-size: 20px;
-    font-family: silka-regular;
-    color: #FF538F;;
+    font-family: silka-bold;
+    color: #FF538F;
 }
 
 .subHeader-t2 .content .subHeader-t2Col .item {
@@ -282,8 +289,7 @@ header.homepage2 .bottomHeader2 {
     margin-top: 10px
 }
 
-.subHeader-t2 .content2 .bar,
-.subHeader-t2 .content2 .bar2 {
+.subHeader-t2 .content2 .bar {
     width: 175px;
     height: 7px;
     background-color: #090909;
@@ -325,7 +331,7 @@ header.homepage2 .bottomHeader2 {
 
 .contentCard {
     width: 100%;
-    margin: 20px 0;
+    margin: 10px 0 100px 0;
 }
 
 .seeMyWork {
@@ -630,7 +636,7 @@ header.homepage2 .bottomHeader2 {
     }
     .subHeader-t2 .content .year {
         font-family: silka-extralightitalic;
-        font-size: 50px;
+        font-size: 5hbn 0px;
         transform: rotate(0deg);
         margin-top: 60px;
     }
@@ -677,9 +683,6 @@ header.homepage2 .bottomHeader2 {
     }
     .subHeader-t2 .content2 .bar {
         margin: 175px 0;
-    }
-    .subHeader-t2 .content2 .bar2 {
-        margin: 75px 0;
     }
     .subHeader-t2 .content2 .subtitle {
         font-size: 20px
