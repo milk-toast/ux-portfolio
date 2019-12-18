@@ -7,13 +7,19 @@ body {
 body {
     position: relative;
     overflow-y: auto;
-    overflow-x: hidden
+    overflow-x: hidden;
+    /*background:url(../img/dots.png) repeat #f9f9ff;
+    background-attachment: fixed;*/
+    background: #F6F6F9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f9f9ff, #F0F0FE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f9f9ff, #F0F0FE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'sinkinSansRegular', sans-serif
+    font-family: 'silka-regular', sans-serif
 }
 
 p {
@@ -45,29 +51,31 @@ ul {
 }
 
 @font-face {
-    font-family: sinkinSansLight;
-    src: url(../fonts/SinkinSans-300Light.otf)
-}
-
-@font-face {
-    font-family: sinkinSansRegular;
-    src: url(../fonts/SinkinSans-400Regular.otf)
-}
-
-@font-face {
-    font-family: sinkinSansBold;
-    src: url(../fonts/SinkinSans-700Bold.otf)
-}
-
-@font-face {
-    font-family: sinkinSansBlack;
-    src: url(../fonts/SinkinSans-900XBlack.otf)
-}
-
-@font-face {
     font-family: menlo;
     src: url(../fonts/Menlo-Regular.ttf)
 }
+
+@font-face {
+    font-family: silka-regular;
+    src: url(../fonts/Silka-Regular.otf)
+}
+
+@font-face {
+    font-family: silka-bold;
+    src: url(../fonts/Silka-Bold.otf)
+}
+
+@font-face {
+    font-family: silka-extralightitalic;
+    src: url(../fonts/Silka-ExtraLightItalic.otf)
+}
+
+@font-face {
+    font-family: silka-bolditalic;
+    src: url(../fonts/Silka-BoldItalic.otf)
+}
+
+
 
 nav {
     z-index: 10;
@@ -108,7 +116,7 @@ nav .myNavbarTogglerIcon {
 nav .myNavbarBrand {
     font-size: 16px;
     color: #090909!important;
-    font-family: sinkinSansBold;
+    font-family: silka-bold;
     letter-spacing: 2px
 }
 
@@ -149,9 +157,9 @@ header.homepage2 {
 }
 
 header.homepage2 .title {
-    font-family: sinkinSansBlack;
+    font-family: silka-bolditalic;
     color: #090909;
-    font-size: 72px;
+    font-size: 120px;
     position: relative;
     z-index: 3;
     max-width: 100%
@@ -167,7 +175,7 @@ header.homepage2 .headerBar {
 }
 
 header.homepage2 .article {
-    font-family: sinkinSansRegular;
+    font-family: silka-regular;
     color: #090909;
     font-size: 20px;
     margin-top: 20px;
@@ -189,7 +197,7 @@ header.homepage2 .bottomHeader2 {
 .subHeader-t2 {
     width: 100%;
     height: auto;
-    background-color: #f9f9ff;
+    /*background-color: #f9f9ff;*/
     padding: 25px 0
 }
 
@@ -198,11 +206,20 @@ header.homepage2 .bottomHeader2 {
     text-align: left
 }
 
+.subHeader-t2 .content .year {
+    font-family: silka-extralightitalic;
+}
+
 .subHeader-t2 .content .subHeader-t2Col .contentCol {
     width: calc(100% - 8px);
-    background-color: #fff;
-    border: 3px solid blue;
+    /*background-color: #fff;
+    border: 3px solid blue;*/
     padding: 25px 0
+}
+
+.subHeader-t2 .content .subHeader-t2Col .contentCol .title,
+.subHeader-t2 .content .subHeader-t2Col .contentCol .title span {
+    font-size: 12px;
 }
 
 .subHeader-t2 .content .subHeader-t2Col .right {
@@ -212,38 +229,31 @@ header.homepage2 .bottomHeader2 {
 
 .subHeader-t2 .content .subHeader-t2Col .title {
     font-size: 24px;
-    font-family: sinkinSansBold;
+    font-family: silka-bold;
     color: #090909;
-    padding-left: 25px;
 }
 
 .subHeader-t2 .content .subHeader-t2Col .title span {
     font-size: 20px;
-    font-family: sinkinSansRegular;
-    color: #090909;
+    font-family: silka-regular;
+    color: #FF538F;;
 }
 
 .subHeader-t2 .content .subHeader-t2Col .item {
-    font-family: sinkinSansLight;
+    font-family: silka-regular;
+    font-size: 14px;
     color: #090909;
-    padding-left: 25px;
-    padding-right: 25px;
-    letter-spacing: -.64px
-}
-
-.subHeader-t2 .content .subHeader-t2Col .itemMargin {
-    margin-top: 25px
 }
 
 .subHeader-t2 .content2 .title {
-    font-family: sinkinSansBlack;
+    font-family: silka-bold;
     color: #090909;
     text-align: left;
 }
 
 
 .subHeader-t2 .content2 .subtitle {
-    font-family: sinkinSansRegular;
+    font-family: silka-regular;
     color: #FF538F;
     text-align: left;
 }
@@ -251,7 +261,7 @@ header.homepage2 .bottomHeader2 {
 .subHeader-t2 .content2 .item,
 .subHeader-t2 .content2 .item li {
     color: #090909;
-    font-family: sinkinSansLight;
+    font-family: silka-regular;
     font-size: 14px;
     text-align: left;
     width: 970px;
@@ -308,7 +318,7 @@ header.homepage2 .bottomHeader2 {
 
 .subHeader-t2 .content2 .item3 .circle p {
     font-size: 20px;
-    font-family: sinkinSansBold;
+    font-family: silka-bold;
     color: #090909;
     margin: 0 auto
 }
@@ -482,9 +492,6 @@ header.homepage2 .bottomHeader2 {
     .subHeader-t2Col .center {
         margin: 25px auto
     }
-    .subHeader-t2 .content .subHeader-t2Col .item {
-        font-size: 16px
-    }
     .subHeader-t2 .content2 .title {
         font-size: 36px
     }
@@ -550,11 +557,14 @@ header.homepage2 .bottomHeader2 {
     header.homepage2 .title {
         font-size: 48px
     }
+    .subHeader-t2 .content .year {
+        font-family: silka-extralightitalic;
+        font-size: 50px;
+        transform: rotate(0deg);
+        margin-top: 60px;
+    }
     .subHeader-t2Col .center {
         margin: 25px auto
-    }
-    .subHeader-t2 .content .subHeader-t2Col .item {
-        font-size: 16px
     }
     .subHeader-t2 .content2 .title {
         font-size: 36px
@@ -613,10 +623,16 @@ header.homepage2 .bottomHeader2 {
         left: -100px
     }
     header.homepage2 .title {
-        font-size: 72px
+        font-size: 90px
     }
     header.homepage2 .text {
         padding-left: 100px
+    }
+    .subHeader-t2 .content .year {
+        font-family: silka-extralightitalic;
+        font-size: 50px;
+        transform: rotate(0deg);
+        margin-top: 60px;
     }
     .subHeader-t2Col .center {
         margin: 0 auto
@@ -635,17 +651,29 @@ header.homepage2 .bottomHeader2 {
     }
 }
 
+@media (min-width: 992px) {
+    .subHeader-t2 .content .year {
+        font-family: silka-extralightitalic;
+        font-size: 50px;
+        transform: rotate(-90deg);
+        margin-top: 60px;
+    }
+}
+
 @media (min-width: 1200px) {
     header.homepage2 .cerb {
         position: absolute;
         bottom: -200px;
         left: 0
     }
-    .subHeader-t2 .content .subHeader-t2Col .item {
-        font-size: 20px
+    .subHeader-t2 .content .year {
+        font-family: silka-extralightitalic;
+        font-size: 50px;
+        transform: rotate(-90deg);
+        margin-top: 60px;
     }
     .subHeader-t2 .content2 .title {
-        font-size: 36px
+        font-size: 50px
     }
     .subHeader-t2 .content2 .bar {
         margin: 175px 0;
