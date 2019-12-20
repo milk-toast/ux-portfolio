@@ -18,7 +18,7 @@ body {
 * {
     margin: 0;
     padding: 0;
-    font-family: 'sinkinSansRegular', sans-serif
+    font-family: 'silka-regular', sans-serif
 }
 
 p {
@@ -35,44 +35,41 @@ ul {
 }
 
 @font-face {
-    font-family: gothamSSmBold;
-    src: url(../fonts/GothamSSm-Bold.otf)
-}
-
-@font-face {
-    font-family: gothamSSmBook;
-    src: url(../fonts/GothamSSm-Book.otf)
-}
-
-@font-face {
-    font-family: gothamSSmMedium;
-    src: url(../fonts/GothamSSm-Medium.otf)
-}
-
-@font-face {
-    font-family: sinkinSansLight;
-    src: url(../fonts/SinkinSans-300Light.otf)
-}
-
-@font-face {
-    font-family: sinkinSansRegular;
-    src: url(../fonts/SinkinSans-400Regular.otf)
-}
-
-@font-face {
-    font-family: sinkinSansBold;
-    src: url(../fonts/SinkinSans-700Bold.otf)
-}
-
-@font-face {
-    font-family: sinkinSansBlack;
-    src: url(../fonts/SinkinSans-900XBlack.otf)
-}
-
-@font-face {
     font-family: menlo;
     src: url(../fonts/Menlo-Regular.ttf)
 }
+
+@font-face {
+    font-family: silka-extralightitalic;
+    src: url(../fonts/Silka-ExtraLightItalic.otf)
+}
+
+@font-face {
+    font-family: silka-light;
+    src: url(../fonts/Silka-Light.otf)
+}
+
+@font-face {
+    font-family: silka-regular;
+    src: url(../fonts/Silka-Regular.otf)
+}
+
+@font-face {
+    font-family: silka-semibolditalic;
+    src: url(../fonts/Silka-SemiBoldItalic.otf)
+}
+
+@font-face {
+    font-family: silka-bold;
+    src: url(../fonts/Silka-Bold.otf)
+}
+
+@font-face {
+    font-family: silka-bolditalic;
+    src: url(../fonts/Silka-BoldItalic.otf)
+}
+
+
 
 
 nav {
@@ -113,7 +110,7 @@ nav .myNavbarTogglerIcon {
 nav .myNavbarBrand {
     font-size: 16px;
     color: #fff!important;
-    font-family: sinkinSansBold;
+    font-family: silka-bold;
 }
 
 .myNavbarTogglerClose {
@@ -162,14 +159,14 @@ header.homepage .left {
 header.homepage .left .title {
     font-size: 72px;
     color: #fff;
-    font-family: sinkinSansBlack;
+    font-family: silka-bold;
     position: relative;
     top: 2px
 }
 
 header.homepage .left .article {
     color: #fff;
-    font-family: sinkinSansRegular;
+    font-family: silka-regular;
     position: relative;
     bottom: 2px
 }
@@ -189,7 +186,7 @@ header.homepage .left .article {
 
 .header .title {
     font-size: 20px;
-    font-family: sinkinSansBold;
+    font-family: silka-bold;
     color: #fff;
 }
 
@@ -221,13 +218,13 @@ header.homepage .left .article {
 
 .seeMyWork .seeMyWorkRow .left .leftList {
     color: #fff;
-    font-family: sinkinSansRegular;
+    font-family: silka-regular;
     font-size: 20px
 }
 
 .seeMyWork .seeMyWorkRow .left .leftTitle {
     color: #fff;
-    font-family: sinkinSansBlack;
+    font-family: silka-bold;
     margin: 25px 0 20px 0;
     font-size: 55px
 }
@@ -389,20 +386,20 @@ footer.footer1 {
 
 footer.footer1 .title {
     color: #090909;
-    font-family: sinkinSansBlack;
+    font-family: silka-bold;
     font-size: 55px
 }
 
 footer.footer1 .subtitle {
     color: #090909;
-    font-family: sinkinSansRegular;
+    font-family: silka-regular;
     font-size: 20px;
     margin-top: 40px
 }
 
 footer.footer1 .subtitle span {
     color: #fff;
-    font-family: sinkinSansBlack;
+    font-family: silka-bold;
     font-size: 20px
 }
 
