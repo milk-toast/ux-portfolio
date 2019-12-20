@@ -15,12 +15,12 @@
 	<!-- @start navbar -->
 	<nav class="navbar fixed-top navbar-expand-md myNavbar">
 		<div class="container myNavbarContainer">
-			<button class="navbar-toggler myNavbarToggler myNavbarTogglerOpen" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<!-- <button class="navbar-toggler myNavbarToggler myNavbarTogglerOpen" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<img src="assets/img/burgerBars.png" alt="" class="myNavbarTogglerIcon myNavbarTogglerIconOpen">
 		  	</button>
 		  	<button class="navbar-toggler myNavbarToggler myNavbarTogglerClose" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<img src="assets/img/x.png" alt="" class="myNavbarTogglerIcon myNavbarTogglerIconOpen">
-		  	</button>
+		  	</button> -->
 		  	<div class="collapse navbar-collapse myNavbarCollapse" id="navbarNavAltMarkup">
 		    	<div class="navbar-nav ml-auto myNavbarList">
 		    		<div class="navbarBar"></div>
@@ -38,14 +38,10 @@
 	<header class="homepage">
 		<div class="container content">
 			<div class="row ">
-				<div class="col-sm-12 left my-auto">
-					<div class="rectangle"></div>
-					<p class="article">
-						Hi, my name is
-					<h1 class="title">Gabriel Campo</h1>
-					<p class="article">
-						and I'm a user experience and interaction designer based in Brooklyn, NY.
-					</p>
+				<div class="col-md-9 left my-auto">
+					<h1 class="pageTitle">
+						Gabriel Campo is a user experience and interaction designer based in Brooklyn, NY
+					</h1>
 				</div>
 			</div>
 		</div>
@@ -55,7 +51,7 @@
 	<!-- @start project section header -->
 	<div class="container content">
 		<div class="header">
-			<h1 class="title">Projects</h1>
+			<h1 class="sectionTitle">Projects</h1>
 			<div class="leftBar">
 			</div>
 		</div>
@@ -63,21 +59,22 @@
 	<!-- @end project section header -->
 
 	<!-- @start row1 -->
-	<section class="seeMyWork">
+	<section class="project">
 		<div class="container content">
-			<div class="row seeMyWorkRow">
-				<div class="col-md-6 left my-auto">
-					<h1 class="leftTitle">The Hartford's MyBenefits</h1>
-					<span class="leftList">Design System / Project Management</span>
+			<div class="row projectRow">
+				<div class="col-md-6 left">
+					<span class="projectSubtitle">Design System & Project Management</span>
+					<h1 class="projectTitle">The Hartford's MyBenefits</h1>
 					<a href="mybenefits.html">
-						<div class="leftButton">
+						<div class="projectLink">
 							<p>> See this project</p>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-6 right my-auto">
-					<img class="projectThumbBackground" src="assets/img/blob1.png" alt="">
-					<img src="assets/img/phone1.png" alt="">
+				<div class="col-md-6 right my-auto right">
+					<div class="projectCardWrapper">
+						<img class="projectCard" src="assets/img/hig-thumbnail.png" alt="">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -85,22 +82,20 @@
 	<!-- @end row1 -->
 
 	<!-- @start row2 -->
-	<section class="seeMyWork">
+	<section class="project">
 		<div class="container content">
-			<div class="row seeMyWorkRow">
-				<div class="col-md-6 left my-auto">
-					<h1 class="leftTitle">Groove Maps</h1>
-					<span class="leftList">User Experience Design / Usability Testing</span>
+			<div class="row projectRow">
+				<div class="col-md-6 left">
+					<span class="projectSubtitle">Interaction Design & Usability Testing</span>
+					<h1 class="projectTitle">Groove Maps</h1>
 					<a href="groove-maps.html">
-						<div class="leftButton">
+						<div class="projectLink">
 							<p>> See this project</p>
 						</div>
 					</a>
 				</div>
-
 				<div class="col-md-6 right my-auto">
-					<img class="projectThumbBackground" src="assets/img/blob1.png" alt="">
-					<img src="assets/img/phone1.png" alt="">
+					<img class="projectCard" src="assets/img/gm-thumbnail.png" alt="">
 				</div>
 				
 			</div>
@@ -109,20 +104,19 @@
 	<!-- @end row2 -->
 
 	<!-- @start row3 -->
-	<section class="seeMyWork">
+	<section class="project">
 		<div class="container content">
-			<div class="row seeMyWorkRow">
-				<div class="col-md-6 left my-auto">
-					<h1 class="leftTitle">14ft</h1>
-					<span class="leftList">Personas / Visual Design</span><br>
+			<div class="row projectRow">
+				<div class="col-md-6 left">
+					<span class="projectSubtitle">Personas & Visual Design</span>
+					<h1 class="projectTitle">14FT</h1>
 					<a href="14ft.html">
-						<div class="leftButton">
+						<div class="projectLink">
 							<p>> See this project</p>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-6 right my-auto">
-					<img class="projectThumbBackground" src="assets/img/blob1.png" alt="">
 					<img src="assets/img/monitor1.png" alt="">
 				</div>
 			</div>
@@ -134,10 +128,21 @@
 	<!-- <img src="assets/img/seafoam-fade.svg" alt="" class="footerTop"> -->
 	<footer class="footer1">
 		<div class="container content">
-			<div class="row footer1Row">
+			<div class="row footerContent">
 				<div class="col-12">
-					<h1 class="title">Want to chat?</h1>
-					<p class="subtitle">Shoot me an email at <span>campo.gabe@gmail.com</span> to talk some more</p>
+					<h1 class="footerTitle">Want to chat?</h1>
+					<div class="contactRow">
+						<img class="footerIcon" src="assets/img/email-icon.svg">
+						<span>campo.gabe@gmail.com</span>
+					</div>
+					<div class="contactRow">
+						<img class="footerIcon" src="assets/img/phone-icon.svg">
+						<span>+1 786 348 8077</span>
+					</div>
+					<div class="contactRow">
+						<img class="footerIcon" src="assets/img/ig-icon.svg">
+						<span>@windows.92</span>
+					</div>
 				</div>
 			</div>
 		</div>
