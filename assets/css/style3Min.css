@@ -30,33 +30,33 @@ ul {
 }
 
 @font-face {
-    font-family: proximaNovaBold;
-    src: url(../fonts/ProximaNovaBold.ttf)
+    font-family: silka-extralightitalic;
+    src: url(../fonts/Silka-ExtraLightItalic.otf)
 }
 
 @font-face {
-    font-family: proximaNovaRegular;
-    src: url(../fonts/ProximaNovaRegular.ttf)
+    font-family: silka-light;
+    src: url(../fonts/Silka-Light.otf)
 }
 
 @font-face {
-    font-family: proximaNovaLight;
-    src: url(../fonts/ProximaNovaLight.ttf)
+    font-family: silka-regular;
+    src: url(../fonts/Silka-Regular.otf)
 }
 
 @font-face {
-    font-family: gothamSSmBold;
-    src: url(../fonts/GothamSSm-Bold.otf)
+    font-family: silka-semibolditalic;
+    src: url(../fonts/Silka-SemiBoldItalic.otf)
 }
 
 @font-face {
-    font-family: gothamSSmBook;
-    src: url(../fonts/GothamSSm-Book.otf)
+    font-family: silka-bold;
+    src: url(../fonts/Silka-Bold.otf)
 }
 
 @font-face {
-    font-family: gothamSSmMedium;
-    src: url(../fonts/GothamSSm-Medium.otf)
+    font-family: silka-bolditalic;
+    src: url(../fonts/Silka-BoldItalic.otf)
 }
 
 nav {
@@ -78,7 +78,7 @@ nav.myNavbar {
 nav .myNavbarList a {
     font-size: 16px;
     color: #333!important;
-    font-family: proximaNovaBold;
+    font-family: silka-bold;
     letter-spacing: 2px
 }
 
@@ -98,7 +98,7 @@ nav .myNavbarTogglerIcon {
 nav .myNavbarBrand {
     font-size: 16px;
     color: #333!important;
-    font-family: proximaNovaBold;
+    font-family: silka-bold;
     letter-spacing: 2px
 }
 
@@ -139,7 +139,7 @@ header.homepage2 {
 }
 
 header.homepage2 .title {
-    font-family: proximaNovaBold;
+    font-family: silka-bold;
     color: #333;
     font-size: 72px;
     position: relative;
@@ -157,7 +157,7 @@ header.homepage2 .headerBar {
 }
 
 header.homepage2 .article {
-    font-family: proximaNovaBold;
+    font-family: silka-bold;
     color: #333;
     font-size: 16px;
     margin-top: 20px;
@@ -193,19 +193,19 @@ header.homepage2 .article {
 
 .subHeader-t2 .content .subHeader-t2Col .title {
     font-size: 24px;
-    font-family: proximaNovaBold;
+    font-family: silka-bold;
     color: #333
 }
 
 .subHeader-t2 .content .subHeader-t2Col .title span {
     font-size: 20px;
-    font-family: proximaNovaRegular;
+    font-family: silka-regular;
     color: #333;
     letter-spacing: 3px
 }
 
 .subHeader-t2 .content .subHeader-t2Col .item {
-    font-family: proximaNovaLight;
+    font-family: silka-regular;
     color: #333;
     padding-left: 25px;
     padding-right: 25px
@@ -216,13 +216,13 @@ header.homepage2 .article {
 }
 
 .subHeader-t2 .content2 .title {
-    font-family: proximaNovaBold;
+    font-family: silka-bold;
     color: #333;
     text-align: center
 }
 
 .subHeader-t2 .content2 .subtitle {
-    font-family: proximaNovaBold;
+    font-family: silka-bold;
     color: #333;
     text-align: center;
     letter-spacing: 3px
@@ -231,7 +231,7 @@ header.homepage2 .article {
 .subHeader-t2 .content2 .item,
 .subHeader-t2 .content2 .item li {
     color: #333;
-    font-family: proximaNovaLight;
+    font-family: silka-regular;
     text-align: center;
     width: 970px;
     max-width: 100%;
@@ -279,7 +279,7 @@ header.homepage2 .article {
 
 .subHeader-t2 .content2 .item3 .circle p {
     font-size: 20px;
-    font-family: proximaNovaBold;
+    font-family: silka-bold;
     color: #333;
     margin: 0 auto
 }
@@ -306,7 +306,7 @@ header.homepage2 .article {
 
 .subHeader-t2 .content2 .business .b-title {
     font-size: 16px;
-    font-family: proximaNovaBold;
+    font-family: silka-bold;
     color: #333;
     letter-spacing: 2px;
     margin-top: 10px
@@ -314,7 +314,7 @@ header.homepage2 .article {
 
 .subHeader-t2 .content2 .business .b-subtitle {
     font-size: 18px;
-    font-family: proximaNovaLight;
+    font-family: silka-regular;
     color: #333;
     letter-spacing: -.64px
 }
@@ -329,7 +329,7 @@ header.homepage2 .article {
 
 .subHeader-t2 .content2 .bricks .b-title {
     font-size: 16px;
-    font-family: proximaNovaBold;
+    font-family: silka-bold;
     color: #333;
     letter-spacing: 2px;
     margin-top: 15px
@@ -337,7 +337,7 @@ header.homepage2 .article {
 
 .subHeader-t2 .content2 .bricks .b-subtitle {
     font-size: 18px;
-    font-family: proximaNovaLight;
+    font-family: silka-regular;
     color: #333;
     letter-spacing: -.64px
 }
@@ -377,7 +377,7 @@ header.homepage2 .article {
 
 .subHeader-t2 .content2 .typography .b-title {
     font-size: 18px;
-    font-family: proximaNovaLight;
+    font-family: silka-regular;
     color: #333;
     letter-spacing: -.64px
 }
@@ -459,13 +459,13 @@ header.homepage2 .article {
 
 .reviews .text .article {
     font-size: 20px;
-    font-family: proximaNovaLight;
+    font-family: silka-regular;
     color: #333
 }
 
 .reviews .text .name {
     font-size: 16px;
-    font-family: proximaNovaBold;
+    font-family: silka-bold;
     color: #333;
     letter-spacing: 2px
 }
@@ -555,13 +555,13 @@ header.homepage2 .article {
 .jason .title {
     font-size: 24px;
     color: #333;
-    font-family: proximaNovaRegular
+    font-family: silka-regular
 }
 
 .jason .right .article {
     font-size: 20px;
     color: #333;
-    font-family: proximaNovaLight;
+    font-family: silka-regular;
     letter-spacing: -.64px
 }
 
@@ -570,14 +570,14 @@ header.homepage2 .article {
 }
 
 .jason .title span {
-    font-family: proximaNovaBold
+    font-family: silka-bold
 }
 
 .jason .right ul li {
     font-size: 16px;
     color: #333;
     letter-spacing: 2px;
-    font-family: proximaNovaBold
+    font-family: silka-bold
 }
 
 .phoneText {
@@ -622,14 +622,14 @@ header.homepage2 .article {
 
 .phoneText .inner-text .title {
     font-size: 24px;
-    font-family: proximaNovaBold;
+    font-family: silka-bold;
     color: #333;
     letter-spacing: 3px
 }
 
 .phoneText .inner-text .article {
     font-size: 20px;
-    font-family: proximaNovaLight;
+    font-family: silka-regular;
     color: #333;
     letter-spacing: -.64px
 }
