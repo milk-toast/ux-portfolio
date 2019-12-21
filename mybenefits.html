@@ -7,26 +7,29 @@
   	<!-- Bootstrap CSS CDN-->
   	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
+  	<!-- bootstrap css for offline work -->
+  	<!-- <link rel="stylesheet" href="assets/css/bootstrap.css"> -->
+
 	<!-- personal css files -->
-	<link rel="stylesheet" href="assets/css/style2Min.css">
+	<link rel="stylesheet" href="assets/css/styleProject.css">
 </head>
 <body>
 
 	<!-- @start navbar -->
-	<nav class="navbar fixed-top navbar-expand-md myNavbar">
+	<nav class="navbar fixed-top navbar-expand-sm myNavbar">
 		<div class="container myNavbarContainer">
 			<button class="navbar-toggler myNavbarToggler myNavbarTogglerOpen" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<img src="assets/img/burgerBars.png" alt="" class="myNavbarTogglerIcon myNavbarTogglerIconOpen">
+				<img src="assets/img/hamburger.svg" alt="" class="myNavbarTogglerIcon myNavbarTogglerIconOpen">
 		  	</button>
 		  	<button class="navbar-toggler myNavbarToggler myNavbarTogglerClose" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<img src="assets/img/x.png" alt="" class="myNavbarTogglerIcon myNavbarTogglerIconOpen">
+				<img src="assets/img/close.svg" alt="" class="myNavbarTogglerIcon myNavbarTogglerIconOpen">
 		  	</button>
 		  	<div class="collapse navbar-collapse myNavbarCollapse" id="navbarNavAltMarkup">
 		    	<div class="navbar-nav ml-auto myNavbarList">
-		    		<div class="navbarBar"></div>
-			      	<a class="nav-item nav-link" href="index.html">Projects <img src="assets/img/forwardNormal.png" alt="" class="navbarArrows"></a>
-			      	<a class="nav-item nav-link" href="https://www.instagram.com/windows.92/">Photography <img src="assets/img/forwardNormal.png" alt="" class="navbarArrows"></a>
-			      	<a class="nav-item nav-link" href="#">LinkedIn <img src="assets/img/forwardNormal.png" alt="" class="navbarArrows"></a>
+			      	<a class="nav-item nav-link" href="index.html">Projects</a>
+			      	<a class="nav-item nav-link" href="https://www.instagram.com/windows.92/">Photography</a>
+			      	<a class="nav-item nav-link" href="#">LinkedIn</a>
+			      	<a class="nav-item nav-link" href="#">About</a>
 		    	</div>
 		  	</div>
 		</div>
@@ -35,64 +38,57 @@
 	<!-- @end navbar -->
   
 	<!-- @start header -->
-	<header class="homepage2">
+	<header class="projectHeader">
+		<img class="headerImg" src="assets/img/hig-header.png">
 		<div class="container content">
-			<div class="row ">
-				<!-- <img src="assets/img/bottomHeader2.png" alt="" class="bottomHeader2">
-				<div class="col-sm-4 col-md-3">
-					<img src="assets/img/cerb.png" alt="" class="cerb">
-				</div> -->
-				<div class="col-sm-8 col-md-9 left my-auto">
-					<div class="text">
-						<h1 class="title">The Hartford's MyBenefits</h1>
-						<div class="headerBar"></div>
-						<p class="article">Modernizing through an atomic design system</p>
-					</div>
-				</div>
-			</div>
+			<!-- <h1 class="pageTitle">
+				The Hartford's MyBenefits
+			</h1> -->
 		</div>
 	</header>
 	<!-- @end header -->
 
-	<!-- @start subHeader -->
-	<section class="subHeader-t2">
-		<div class="container content content2">
+	<!-- Opporunity Section -->
+	<section class="projectSection">
+		<div class="container content">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-9">
 					<p class="title">Opportunity</p>
-					<p class="item item1">As part of a company-wide rebranding effort, The Hartford was looking to build a new, responsive group benefits website by creating a clear and intuitive design system and modernizing its branding and visual design.</p>
+					<p class="item item1">As part of a company-wide rebranding effort, The Hartford was looking to build a new, responsive group benefits website by using a clear and intuitive design system.</p>
 				</div>
-				<div class="col-lg-6">
-					<div class="subHeader-t2Col">
-						<div class="contentCol">
-							<p class="title">Roles</p>
-							<p class="item">UX Design Lead</p>
-							<p class="item">Project Manager</p>
-							<p class="item">Prototyper</p>
-						</div>
+			</div>
+			<div class="row">
+				<div class="projectSectionCol col-md-3">
+					<div class="contentCol">
+						<p class="title">Roles</p>
+						<p class="item">Experience Design Lead</p>
+						<p class="item">Project Manager</p>
+						<p class="item">Prototyper</p>
 					</div>
-					<div class="subHeader-t2Col">
-						<div class="contentCol">
-							<p class="title">Tools</p>
-							<p class="item">Sketch</p>
-							<p class="item">Invision</p>
-						</div>
+				</div>
+				<div class="projectSectionCol col-md-3">
+					<div class="contentCol">
+						<p class="title">Tools</p>
+						<p class="item">Sketch</p>
+						<p class="item">Invision</p>
+						<p class="item">Craft</p>
 					</div>
-					<div class="subHeader-t2Col">
-						<div class="contentCol">
-							<p class="title">Schedule</p>
-							<p class="item">2 month exploration phase</p>
-							<p class="item">7 sprints</p>
-							<p class="item">3 week sprints</p>
-						</div>
+				</div>
+				<div class="projectSectionCol col-md-3">
+					<div class="contentCol">
+						<p class="title">Schedule</p>
+						<p class="item">2 month exploration phase</p>
+						<p class="item">7 sprints</p>
+						<p class="item">3 week sprints</p>
 					</div>
 				</div>
 			</div>
-			<div class="container content">
-				<div class="row">
-					<div class="bar"></div>
-				</div>
-			</div>
+		</div>
+	</section>
+	
+	<!-- Exploration Phase Section -->
+	<section class="projectSection">
+		<div class="container content">
 			<div class="row">
 				<div class="col-lg-6">
 					<p class="title">Exploration Phase</p>
@@ -115,8 +111,12 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</section>
 			
-			<div class="bar"></div>
+	<!-- Atomic Design Section -->
+	<section class="projectSection">
+		<div class="container content">
 			<div class="row">
 				<div class="col-lg-5">
 					<p class="subtitle">Design System</p>
@@ -133,9 +133,9 @@
 	</section>
 	<!-- @end subHeader -->
 
-	<!-- @start subHeader -->
-	<section class="subHeader-t2">
-		<div class="container content2">
+	<!-- Visual Design Section -->
+	<section class="projectSection">
+		<div class="container content">
 			<div class="row">
 				<div class="col-lg-5">
 					<p class="subtitle">Design System</p>
@@ -152,22 +152,23 @@
 	</section>
 	<!-- @end subHeader -->
 
-	<!-- @start subHeader -->
-	<section class="subHeader-t2">
-		<div class="container content2">
+	<!-- Sprint Schedule Section -->
+	<section class="projectSection">
+		<div class="container content">
 			<div class="row">
-				<div class="col6 col-lg-6">
-					<div class="bar2"></div>
-					<p class="subtitle">Implementation</p>
+				<div class="col-12">
+					<p class="subtitle">Project Management</p>
 					<p class="title">Sprint Schedule</p>
-					<ul class="item item2">
-						<li>We worked very closely with both product and development teams to make sure we met business goals and designed technically-feasible designs</li><br>
-						<li>In order to meet deliverables within our Agile sprint schedule, we adopted the following schedule to "sprint ahead".</li>
-					</ul>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-12">
+				<div class="col-lg-4">
+					<ul class="item item2">
+						<li>We worked very closely with both product and development teams to make sure we met business goals and designed technically-feasible designs</li><br>
+						<li>We adopted the following schedule to "sprint ahead" of development and testing.</li>
+					</ul>
+				</div>
+				<div class="col-lg-8">
 					<img class="contentCard" src="assets/img/mb-sprint-schedule.png" alt="">
 				</div>
 			</div>
@@ -175,49 +176,42 @@
 	</section>
 	<!-- @end subHeader -->
 
-	<!-- @start subHeader -->
-	<section class="subHeader-t2">
-		<div class="container content2">
+	<!-- Sprint Activities Section -->
+	<section class="projectSection">
+		<div class="container content">
 			<div class="row">
 				<div class="col-12">
-					<p class="subtitle">Implementation</p>
+					<p class="subtitle">Project Management</p>
 					<p class="title">Sprint Activies</p>
 					<p class="item item2">
 						Within each three week sprint, we completed the following activities to make sure that we were working closely with each team and delivering on time.
 					</p>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- @end subHeader -->
-
-	<!-- @start subHeader -->
-	<section class="subHeader-t2">
-		<div class="container content">
 			<div class="row">
-				<div class="col-md-4 subHeader-t2Col">
-					<div class="contentCol left">
-						<p class="title">Week 1 <span>Planning</span></p>
+				<div class="col-md-4 projectSectionCol">
+					<div class="contentCol contentCol1">
+						<p class="title">WEEK 1 <span>Planning</span></p>
 						<p class="item itemMargin">Review pages and features with Product and Process leads</p>
 						<p class="item itemMargin">Assign work to designers</p>
 						<p class="item itemMargin">Review previous designs and identify any potential overlap in functionality or patterns</p>
 						<p class="item itemMargin">Begin mobile design</p>
 					</div>
 				</div>
-				<div class="col-md-4 subHeader-t2Col">
-					<div class="contentCol center">
-						<p class="title">Week 2 <span>Feedback</span></p>
+				<div class="col-md-4 projectSectionCol">
+					<div class="contentCol contentCol2">
+						<p class="title">WEEK 2 <span>Feedback</span></p>
 						<p class="item itemMargin">Validate that mobile designs meet Product expectations</p>
-						<p class="item itemMargin">Validate that mobile designs follow Process guidelines</p>
+						<!-- <p class="item itemMargin">Validate that mobile designs follow Process guidelines</p> -->
 						<p class="item itemMargin">Identify reused patterns with Development team</p>
 						<p class="item itemMargin">Validate all data in designs is feasible with Services team</p>
 						<p class="item itemMargin">Receive sign off from all groups</p>
 						<p class="item itemMargin">(If design is net new) complete a round of usability testing</p>
 					</div>
 				</div>
-				<div class="col-md-4 subHeader-t2Col">
-					<div class="contentCol right">
-						<p class="title">Week 3 <span>Delivery</span></p>
+				<div class="col-md-4 projectSectionCol">
+					<div class="contentCol contentCol3">
+						<p class="title">WEEK 3 <span>Delivery</span></p>
 						<p class="item itemMargin">Deliver final mobile designs</p>
 						<p class="item itemMargin">Add mobile designs into sitewide InVision prototype for consumption by other teams</p>
 						<p class="item itemMargin">Create and deliver the tablet and desktop designs</p>
@@ -229,11 +223,10 @@
 	<!-- @end subHeader -->
 
 	<!-- @start subHeader -->
-	<section class="subHeader-t2">
-		<div class="container content2">
+	<section class="projectSection">
+		<div class="container content">
 			<div class="row">
 				<div class="col-12">
-					<div class="bar2"></div>
 					<p class="title">Closing Thoughts</p>
 					<p class="item item2 item2MarginBottom">Over time, we reused and extended the design system from its foundation to cover the ~120 pages in the final application. Our design team met all our goals by creating a modern and extensible atomic design system that will be the future building blocks for group benefits applications at our insurance client.</p>
 				</div>
