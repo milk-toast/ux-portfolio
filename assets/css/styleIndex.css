@@ -14,20 +14,21 @@ body {
 * {
     margin: 0;
     padding: 0;
-    font-family: 'silka-regular', sans-serif
+    font-family: 'silka-regular', sans-serif;
+    letter-spacing: -.64px
 }
 
 p {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 a {
-    text-decoration: none!important
+    text-decoration: none!important;
 }
 
 ul {
-    list-style-type: none
+    list-style-type: none;
 }
 
 @font-face {
