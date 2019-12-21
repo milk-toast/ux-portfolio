@@ -226,6 +226,7 @@ header.homepage2 .headerImg {
 
 .projectSection .content2 .title {
     font-family: silka-bold;
+    font-size: 50px;
     color: #090909;
     text-align: left;
 }
@@ -351,14 +352,15 @@ header.homepage2 .headerImg {
         padding-bottom: 250px
     }
     header.homepage2 .title {
-        font-size: 36px
+        font-size: 40px
     }
     .projectSectionCol .center {
         margin: 25px auto
     }
+    .projectSection .content2 .title,
     .projectSection .content2 .title {
-        font-size: 36px
-    }
+        font-size: 40px;
+    }   
     .projectSection .content2 .item3 .col {
         width: 100%;
         height: auto;
@@ -405,6 +407,10 @@ header.homepage2 .headerImg {
         top: 100px;
         left: 0
     }*/
+    .projectSection .content2 .title,
+    .projectSection .content2 .title {
+        font-size: 40px;
+    }   
 }
 
 @media (min-width: 768px) {
