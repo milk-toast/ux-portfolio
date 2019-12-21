@@ -7,26 +7,29 @@
   	<!-- Bootstrap CSS CDN-->
   	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
+  	<!-- bootstrap css for offline work -->
+  	<!-- <link rel="stylesheet" href="assets/css/bootstrap.css"> -->
+
 	<!-- personal css files -->
 	<link rel="stylesheet" href="assets/css/styleMin.css">
 </head>
 <body>
 
 	<!-- @start navbar -->
-	<nav class="navbar fixed-top navbar-expand-md myNavbar">
+	<nav class="navbar fixed-top navbar-expand-sm myNavbar">
 		<div class="container myNavbarContainer">
-			<!-- <button class="navbar-toggler myNavbarToggler myNavbarTogglerOpen" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<img src="assets/img/burgerBars.png" alt="" class="myNavbarTogglerIcon myNavbarTogglerIconOpen">
+			<button class="navbar-toggler myNavbarToggler myNavbarTogglerOpen" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<img src="assets/img/hamburger.svg" alt="" class="myNavbarTogglerIcon myNavbarTogglerIconOpen">
 		  	</button>
 		  	<button class="navbar-toggler myNavbarToggler myNavbarTogglerClose" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<img src="assets/img/x.png" alt="" class="myNavbarTogglerIcon myNavbarTogglerIconOpen">
-		  	</button> -->
+				<img src="assets/img/close.svg" alt="" class="myNavbarTogglerIcon myNavbarTogglerIconOpen">
+		  	</button>
 		  	<div class="collapse navbar-collapse myNavbarCollapse" id="navbarNavAltMarkup">
 		    	<div class="navbar-nav ml-auto myNavbarList">
-		    		<div class="navbarBar"></div>
-			      	<a class="nav-item nav-link" href="index.html">Projects <img src="assets/img/forwardNormal.png" alt="" class="navbarArrows"></a>
-			      	<a class="nav-item nav-link" href="https://www.instagram.com/windows.92/">Photography <img src="assets/img/forwardNormal.png" alt="" class="navbarArrows"></a>
-			      	<a class="nav-item nav-link" href="#">LinkedIn <img src="assets/img/forwardNormal.png" alt="" class="navbarArrows"></a>
+			      	<a class="nav-item nav-link" href="index.html">Projects</a>
+			      	<a class="nav-item nav-link" href="https://www.instagram.com/windows.92/">Photography</a>
+			      	<a class="nav-item nav-link" href="#">LinkedIn</a>
+			      	<a class="nav-item nav-link" href="#">About</a>
 		    	</div>
 		  	</div>
 		</div>
@@ -62,7 +65,30 @@
 	<section class="project">
 		<div class="container content">
 			<div class="row projectRow">
-				<div class="col-md-6 left">
+				<div class="col-lg-6 left">
+					<span class="projectSubtitle">Info Architecture & Interaction Design</span>
+					<h1 class="projectTitle">The Hartford's Leave Management</h1>
+					<a href="">
+						<div class="projectLink">
+							<p>> See this project</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-6 right my-auto right">
+					<div class="projectCardWrapper">
+						<img class="projectCard" src="assets/img/hig-thumbnail.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- @end row1 -->
+
+	<!-- @start row1 -->
+	<section class="project">
+		<div class="container content">
+			<div class="row projectRow">
+				<div class="col-lg-6 left">
 					<span class="projectSubtitle">Design System & Project Management</span>
 					<h1 class="projectTitle">The Hartford's MyBenefits</h1>
 					<a href="mybenefits.html">
@@ -71,7 +97,7 @@
 						</div>
 					</a>
 				</div>
-				<div class="col-md-6 right my-auto right">
+				<div class="col-lg-6 right my-auto right">
 					<div class="projectCardWrapper">
 						<img class="projectCard" src="assets/img/hig-thumbnail.png" alt="">
 					</div>
@@ -85,7 +111,7 @@
 	<section class="project">
 		<div class="container content">
 			<div class="row projectRow">
-				<div class="col-md-6 left">
+				<div class="col-lg-6 left">
 					<span class="projectSubtitle">Interaction Design & Usability Testing</span>
 					<h1 class="projectTitle">Groove Maps</h1>
 					<a href="groove-maps.html">
@@ -94,7 +120,7 @@
 						</div>
 					</a>
 				</div>
-				<div class="col-md-6 right my-auto">
+				<div class="col-lg-6 right my-auto">
 					<img class="projectCard" src="assets/img/gm-thumbnail.png" alt="">
 				</div>
 				
@@ -107,8 +133,8 @@
 	<section class="project">
 		<div class="container content">
 			<div class="row projectRow">
-				<div class="col-md-6 left">
-					<span class="projectSubtitle">Personas & Visual Design</span>
+				<div class="col-lg-6 left">
+					<span class="projectSubtitle">Research & Branding</span>
 					<h1 class="projectTitle">14FT</h1>
 					<a href="14ft.html">
 						<div class="projectLink">
@@ -116,8 +142,8 @@
 						</div>
 					</a>
 				</div>
-				<div class="col-md-6 right my-auto">
-					<img src="assets/img/monitor1.png" alt="">
+				<div class="col-lg-6 right my-auto">
+					<img class="projectCard" src="assets/img/14ft-thumbnail.png" alt="">
 				</div>
 			</div>
 		</div>

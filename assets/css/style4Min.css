@@ -60,26 +60,23 @@ ul {
 }
 
 nav {
-    z-index: 10;
+    z-index: 4;
     display: block;
     position: absolute;
     top: 0;
     left: 0;
     position: fixed;
-    background-color: #fff
 }
 
 nav.myNavbar {
-    padding: 0;
-    padding-top: 35px;
-    padding-bottom: 35px
+    padding-top: 15px;
 }
 
 nav .myNavbarList a {
     font-size: 16px;
-    color: #333!important;
-    font-family: silka-bold;
-    letter-spacing: 2px
+    color: #090909!important;
+    text-decoration: underline!important;
+    font-family: silka-regular;
 }
 
 nav .myNavbarToggler,
@@ -90,16 +87,10 @@ nav .myNavbarToggler:focus {
 }
 
 nav .myNavbarTogglerIcon {
-    color: #422e2b;
+    width: 40px;
+    height: auto;
     position: relative;
     top: -2px
-}
-
-nav .myNavbarBrand {
-    font-size: 16px;
-    color: #333!important;
-    font-family: silka-bold;
-    letter-spacing: 2px
 }
 
 .myNavbarTogglerClose {
@@ -114,7 +105,7 @@ nav .myNavbarBrand {
     left: 0;
     position: fixed;
     background-color: #fff;
-    z-index: 9;
+    z-index: 3;
     display: none
 }
 
@@ -653,9 +644,11 @@ header.homepage2 .article {
     }
     nav .myNavbarList a {
         margin: 0!important;
+        font-size: 40px;
+        text-align: center;
         padding-left: 20px!important;
         padding-right: 20px!important;
-        padding-top: 70px
+        padding-top: 20px
     }
     nav .navbarArrows {
         display: inline-block;
@@ -808,7 +801,7 @@ header.homepage2 .article {
 }
 
 @media (min-width: 576px) {
-    nav .myNavbarBrand {
+    /*nav .myNavbarBrand {
         padding-left: 20px!important
     }
     nav .myNavbarToggler {
@@ -816,12 +809,11 @@ header.homepage2 .article {
     }
     nav .myNavbarList a {
         margin: 0!important;
+        font-size: 40px;
+        text-align: center;
         padding-left: 20px!important;
         padding-right: 20px!important;
-        margin: 0!important;
-        padding-left: 20px!important;
-        padding-right: 20px!important;
-        padding-top: 70px
+        padding-top: 20px
     }
     nav .navbarArrows {
         display: inline-block;
@@ -835,7 +827,7 @@ header.homepage2 .article {
         position: fixed;
         top: 100px;
         left: 0
-    }
+    }*/
     header.homepage2 .text {
         position: relative;
         top: 100px
@@ -974,8 +966,6 @@ header.homepage2 .article {
 @media (min-width: 768px) {
     nav .myNavbarList a {
         margin: 0!important;
-        padding-left: 25px!important;
-        padding-right: 25px!important;
         padding-top: 0
     }
     nav .myNavbarList a:first-child {
@@ -990,10 +980,6 @@ header.homepage2 .article {
     nav .navbarArrows,
     nav .navbarBar {
         display: none
-    }
-    nav .myNavbarToggler,
-    nav .navbarOverlay {
-        display: none!important
     }
     header.homepage2 .title {
         font-size: 72px
