@@ -231,7 +231,6 @@ footer.footer1 .footerContent {
 footer.footer1 .footerTitle {
     color: #090909;
     font-family: silka-bold;
-    font-size: 55px
 }
 
 footer.footer1 .contactRow {
@@ -291,11 +290,11 @@ footer.footer1 span {
         text-align: center;
         display: block
     }
-    header.homepage .left .pageTitle {
+    header.homepage .left .pageTitle,
+    .project .projectRow .left .projectTitle,
+    footer.footer1 .footerTitle {
         font-size: 40px;
-        color: #090909;
-        font-family: silka-bold;
-    }
+    } 
     .header .leftBar {
         margin-bottom: 0px;
     }
@@ -311,9 +310,6 @@ footer.footer1 span {
     .project .projectRow {
         margin-top: 0px
     }
-    .project .projectRow .left .projectTitle {
-        font-size: 40px;
-    } 
     .project .projectRow .left .projectLink {
         margin-left: auto;
         margin-right: auto
@@ -333,13 +329,28 @@ footer.footer1 span {
     }
 }
 
+/* Tablet Portrait */
 @media (min-width: 576px) {
-    .project .projectRow .left .projectTitle {
+    header.homepage {
+        width: 100%;
+    }
+    header.homepage .left .pageTitle,
+    .project .projectRow .left .projectTitle,
+    footer.footer1 .footerTitle {
         font-size: 40px;
-    } 
+    }  
+    .header .leftBar {
+        margin-bottom: 0px;
+    }
+    .project {
+        padding: 50px 0
+    }
+    .project .projectRow {
+        margin-top: 0px
+    }
 }
 
-/* Tablet */
+/* Tablet Landscape / Small Desktop */
 @media (min-width: 768px) {
     nav .myNavbarList a {
         margin: 0!important;
@@ -376,6 +387,11 @@ footer.footer1 span {
         top: 0;
         left: 10px
     }
+    header.homepage .left .pageTitle,
+    .project .projectRow .left .projectTitle,
+    footer.footer1 .footerTitle {
+        font-size: 45px;
+    } 
     .header .leftBar {
         margin-bottom: 0px;
     }
@@ -385,22 +401,11 @@ footer.footer1 span {
     .project .projectRow {
         padding-left: 10px
     }
-    .project .projectRow .left .projectTitle {
-        font-size: 45px;
-    }
-    .project .projectRow .projectCard {
-        /*width: auto;
-        max-height: 400px;*/
-    }
-    .project {
-        /*padding-top: 100px*/
-    }
     .project .projectRow .left {
         text-align: left
     }
     .project .projectRow .left .leftBar {
         margin-left: 0;
-       /* margin-left: auto*/
     }
 }
 
@@ -408,23 +413,22 @@ footer.footer1 span {
 @media (min-width: 992px) {
     header.homepage .left .article {
         font-size: 24px
-    }
-    .testimonial1 .left img {
-        width: 370px;
-        height: 451px
-    }
-    .testimonial2 {
-        padding: 100px 0
-    }
-    .testimonial2 .right img {
-        width: 367px;
-        height: 284px
-    }
-    footer.footer1 {
-        /*height: 800px;
-        width: 100%;*/
-    }
+    }    
+    header.homepage .left .pageTitle,
+    .project .projectRow .left .projectTitle,
+    footer.footer1 .footerTitle {
+        font-size: 50px;
+    } 
     footer.footer1 .title {
         margin-top: 360px
     }
+}
+
+/* Desktop XL */
+@media (min-width: 1200px) {
+    header.homepage .left .pageTitle,
+    .project .projectRow .left .projectTitle,
+    footer.footer1 .footerTitle {
+        font-size: 50px;
+    } 
 }
