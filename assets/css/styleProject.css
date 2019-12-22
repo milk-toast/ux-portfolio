@@ -126,7 +126,14 @@ header.projectHeader {
     -webkit-align-items: center;
     -webkit-box-align: center;
     align-items: center;
+}
+
+header.mbHeader {
     background-color: #E7F1F8;
+}
+
+header.gmHeader {
+    background-color: #000;
 }
 
 header.projectHeader .headerImg {
@@ -148,6 +155,28 @@ header.projectHeader .pageTitle {
     width: 100%;
     height: auto;
     margin-bottom: 200px;
+}
+
+.projectSection .content .title {
+    font-family: silka-bold;
+    font-size: 50px;
+    color: #090909;
+}
+
+
+.projectSection .content .subtitle {
+    font-family: silka-regular;
+    color: #FF538F;
+    text-align: left;
+}
+
+.projectSection .content .description {
+    color: #090909;
+    font-family: silka-regular;
+    font-size: 14px;
+    text-align: left;
+    max-width: 100%;
+    margin-bottom: 40px;
 }
 
 .projectSection .numberValPair {
@@ -215,40 +244,29 @@ header.projectHeader .pageTitle {
     margin-bottom: 10px;
 }
 
-.projectSection .content .title {
-    font-family: silka-bold;
-    font-size: 50px;
-    color: #090909;
-}
-
-
-.projectSection .content .subtitle {
-    font-family: silka-regular;
-    color: #FF538F;
-    text-align: left;
-}
-
-.projectSection .content .description {
-    color: #090909;
-    font-family: silka-regular;
-    font-size: 14px;
-    text-align: left;
-    max-width: 100%;
-    margin-bottom: 40px;
-}
-
 .projectSection .content .item2,
 .projectSection .content .subtitle {
     margin-top: 10px
 }
 
-.projectSection .content .contentCard .contentCardImg {
+.projectSection .content .contentCardImg {
     margin-top: 15px;
     width: 100%;
 }
 
 .projectSection .content .contentStack {
     margin-bottom: 100px;
+}
+
+.projectSection .content .persona {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.projectSection .content .personaImg {
+    max-width: 150px;
+    max-height: auto;
+    margin-right: 20px;
 }
 
 /* XSmall */
