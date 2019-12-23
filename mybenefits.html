@@ -11,7 +11,9 @@
   	<!-- <link rel="stylesheet" href="assets/css/bootstrap.css"> -->
 
 	<!-- personal css files -->
-	<link rel="stylesheet" href="assets/css/styleProject.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/header.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/project.css">
 </head>
 <body>
 
@@ -47,13 +49,6 @@
 		</div>
 	</header>
 	<!-- @end header -->
-
-	<!-- Project Header -->
-	<!-- <section class="projectTitle">
-		<div class="container content">
-			<p class="title">The Hartford's MyBenefits</p>
-		</div>
-	</section> -->
 
 	<!-- Opporunity Section -->
 	<section class="projectSection">
@@ -129,9 +124,13 @@
 		<div class="container content">
 			<div class="row">
 				<div class="col-lg-5">
-					<p class="subtitle">Design System</p>
-					<p class="title">Atomic Design</p>
-					<p class="description">We began dissecting our 8 common use pages to build out a foundation for our design system based on atomic design principles. Later analysis showed that through just 8 screens we covered roughly 90% of atoms, 50% of molecules and 20% of organisms with just our 10 common use pages.</p>
+					<div class="stickyContainer">
+						<div class="stickyContent">
+							<p class="subtitle">Design System</p>
+							<p class="title">Atomic Design</p>
+							<p class="description">We began dissecting our 8 common use pages to build out a foundation for our design system based on atomic design principles. Later analysis showed that through just 8 screens we covered roughly 90% of atoms, 50% of molecules and 20% of organisms with just our 10 common use pages.</p>
+						</div>
+					</div>
 				</div>
 				<div class="col-lg-6 offset-lg-1">
 					<div class="contentCard contentStack">
@@ -152,14 +151,20 @@
 	</section>
 	<!-- @end subHeader -->
 
+	<div class="spacer"></div>
+
 	<!-- Visual Design Section -->
 	<section class="projectSection">
 		<div class="container content">
 			<div class="row">
 				<div class="col-lg-5">
-					<p class="subtitle">Design System</p>
-					<p class="title">Visual Design</p>
-					<p class="description">The visual design team then took our medium-fidelity components from the 8 common use pages and applied a branded look and feel. From these pages they created our visual language for the system.</p>
+					<div class="stickyContainer">
+						<div class="stickyContent">
+							<p class="subtitle">Design System</p>
+							<p class="title">Visual Design</p>
+							<p class="description">The visual design team then took our medium-fidelity components from the 8 common use pages and applied a branded look and feel. From these pages they created our visual language for the system.</p>
+						</div>
+					</div>
 				</div>
 				<div class="col-lg-6 offset-lg-1">
 					<div class="contentCard contentStack">
@@ -250,23 +255,48 @@
 	<!-- @end subHeader -->
 
 	<!-- @start subHeader -->
-	<section class="projectSection">
+	<section class="projectSection sectionBlue">
 		<div class="container content">
-			<div class="row">
+			<div class="row imgRow">
 				<div class="col-md-5">
-					<p class="title">Final Result</p>
-					<p class="description">Over time, we reused and extended the design system from its foundation to cover the ~120 pages in the final application. Our design team met all our goals by creating a modern and extensible atomic design system that will be the future building blocks for group benefits applications at our insurance client.</p>
+					<div class="stickyContainer">
+						<div class="stickyContent">
+							<p class="title">Final Result</p>
+							<p class="description">Over time, we reused and extended the design system from its foundation to cover the ~120 pages in the final application. Our design team met all our goals by creating a modern and extensible atomic design system that will be the future building blocks for group benefits applications at our insurance client.</p>
+						</div>
+					</div>
 				</div>
-				<div class="col-md-6 offset-md-1 contentCard">
-					<img class="contentCardImg" src="assets/img/hig-mb-final-1.png">
-					<img class="contentCardImg" src="assets/img/hig-mb-final-2.png">
-					<img class="contentCardImg" src="assets/img/hig-mb-final-3.png">
+				<div class="col-md-6 offset-md-1 contentCard imgRow">
+					<img class="contentCardImg imgRow" src="assets/img/hig-mb-final-1.png">
+					<img class="contentCardImg imgRow" src="assets/img/hig-mb-final-2.png">
+					<img class="contentCardImg imgRow" src="assets/img/hig-mb-final-3.png">
 					<img class="contentCardImg" src="assets/img/hig-mb-final-4.png">
+				</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer1">
+		<div class="container content">
+			<div class="row footerContent">
+				<div class="col-12">
+					<h1 class="footerTitle">Want to chat?</h1>
+					<div class="contactRow">
+						<img class="footerIcon" src="assets/img/email-icon.svg">
+						<span>campo.gabe@gmail.com</span>
+					</div>
+					<div class="contactRow">
+						<img class="footerIcon" src="assets/img/phone-icon.svg">
+						<span>+1 786 348 8077</span>
+					</div>
+					<div class="contactRow">
+						<img class="footerIcon" src="assets/img/ig-icon.svg">
+						<span>@windows.92</span>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- @end subHeader -->
 
 	<!-- jquery CDN -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

@@ -1,0 +1,77 @@
+.footerTop {
+    width: 100%;
+    background-color: none;
+    margin-bottom: 0px;
+}
+
+footer.footer1 {
+    position: relative;
+    background-color: #fffdec;
+    text-align: left
+}
+
+footer.footer1 .footerContent {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer.footer1 .footerTitle {
+    color: #090909;
+    font-family: silka-bold;
+}
+
+footer.footer1 .contactRow {
+    margin: 20px 0;
+}
+
+footer.footer1 .footerIcon {
+    width: 30px;
+    height: auto;
+    margin-right: 25px;
+}
+
+footer.footer1 span {
+    color: #090909;
+    font-family: silka-regular;
+    font-size: 20px;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    footer.footer1 .footerTitle {
+        font-size: 40px;
+    } 
+    footer.footer1 .title {
+        margin-top: 25px
+    }
+}
+
+/* Tablet Portrait */
+@media (min-width: 576px) {
+    footer.footer1 .footerTitle {
+        font-size: 40px;
+}
+
+/* Tablet Landscape / Small Desktop */
+@media (min-width: 768px) {
+    footer.footer1 .footerTitle {
+        font-size: 45px;
+    } 
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    footer.footer1 .footerTitle {
+        font-size: 50px;
+    } 
+    footer.footer1 .title {
+        margin-top: 360px
+    }
+}
+
+/* Desktop XL */
+@media (min-width: 1200px) {
+    footer.footer1 .footerTitle {
+        font-size: 50px;
+    } 
+}
