@@ -66,7 +66,7 @@ ul {
 
 header.projectHeader {
     width: 100%;
-    height: 90%;
+    height: 83%;
     min-height: 600px;
     position: relative;
     display: -ms-flexbox;
@@ -327,10 +327,10 @@ header.projectHeader .pageTitle {
     .projectSection .content .title {
         font-size: 38px;
     }
-    .projectSection .content .projectSectionCol .contentCol2 {
+    .projectSection .content .stagger1 {
         margin-top: 0px;
     }
-    .projectSection .content .projectSectionCol .contentCol3 {
+    .projectSection .content .stagger2 {
         margin-top: 0px;
     }
     .projectSectionCol {
@@ -352,10 +352,10 @@ header.projectHeader .pageTitle {
     .projectSectionCol {
         margin-bottom: 0px;
     }
-    .projectSection .content .projectSectionCol .contentCol2 {
+    .projectSection .content .stagger1 {
         margin-top: 70px;
     }
-    .projectSection .content .projectSectionCol .contentCol3 {
+    .projectSection .content .stagger2 {
         margin-top: 200px;
     }  
     /*.spacer {
