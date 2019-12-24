@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="about" transform="translate(-78.000000, -700.000000)">
+            <g id="Group-6" transform="translate(78.000000, 700.000000)">
+                <rect id="Rectangle" stroke="#090909" stroke-width="1.5" x="0.75" y="0.75" width="28.5" height="28.5" rx="2"></rect>
+                <g id="iconmonstr-linkedin-1" transform="translate(5.000000, 5.000000)" fill="#000000" fill-rule="nonzero">
+                    <path d="M3.3575,1.5 C3.3575,2.3286 2.68612903,3 1.8575,3 C1.02887097,3 0.3575,2.3286 0.3575,1.5 C0.3575,0.672 1.02887097,0 1.8575,0 C2.68612903,0 3.3575,0.672 3.3575,1.5 Z M2.8575,6 L1.3575,6 L1.3575,20.6086957 L2.8575,20.6086957 L2.8575,6 Z M9.8575,6 L8.3575,6 L8.3575,20.6086957 L9.8575,20.6086957 L9.8575,10.9400435 C9.8575,6.67613043 17.3575,6.32734783 17.3575,10.9400435 L17.3575,20.6086957 L18.8575,20.6086957 L18.8575,11.3586522 C18.8575,5.74294164 11.499495,5.14197554 9.8575,8.31288427 L9.8575,6 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

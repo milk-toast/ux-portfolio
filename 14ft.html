@@ -13,6 +13,7 @@
 	<!-- personal css files -->
 	<link rel="stylesheet" type="text/css" href="assets/css/header.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/animations.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/project.css">
 </head>
 <body>
@@ -29,9 +30,8 @@
 		  	<div class="collapse navbar-collapse myNavbarCollapse" id="navbarNavAltMarkup">
 		    	<div class="navbar-nav ml-auto myNavbarList">
 			      	<a class="nav-item nav-link" href="index.html">Projects</a>
-			      	<a class="nav-item nav-link" href="https://www.instagram.com/windows.92/">Photography</a>
-			      	<a class="nav-item nav-link" href="#">LinkedIn</a>
-			      	<a class="nav-item nav-link" href="#">About</a>
+			      	<a class="nav-item nav-link" href="#">Photography</a>
+			      	<a class="nav-item nav-link" href="about.html">About</a>
 		    	</div>
 		  	</div>
 		</div>
@@ -42,12 +42,7 @@
 
 	<!-- Project Header -->
 	<header class="projectHeader fourteenHeader">
-		<img class="headerImg" src="assets/img/14ft-header.png">
-		<div class="container content">
-			<!-- <h1 class="pageTitle">
-				The Hartford's MyBenefits
-			</h1> -->
-		</div>
+		<img class="headerImg fadeinbottom" src="assets/img/14ft-header.png">
 	</header>
 	<!-- @end header -->
 
@@ -100,13 +95,11 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-9">
 					<div class="contentCard contentStack">
 						<p class="title">Current Process</p>
 						<img class="contentCardImg" src="assets/img/14ft-current-process.png">
 					</div>
-				</div>
-				<div class="col-lg-6">
 					<div class="contentCard contentStack">
 						<p class="title">Proposed Process</p>
 						<img class="contentCardImg" src="assets/img/14ft-proposed-process.png">
@@ -118,12 +111,16 @@
 
 
 	<!-- Opporunity Section -->
-	<section class="projectSection sectionYellow">
+	<section class="projectSection">
 		<div class="container content">
 			<div class="row">
 				<div class="col-lg-5">
-					<p class="title">Personas</p>
-					<p class="description">Based on 14 total interviews with business owners, artists, and community members, we were able to create four persons.</p>
+					<div class="stickyContainer">
+						<div class="stickyContent">
+							<p class="title">Personas</p>
+							<p class="description">Based on 14 total interviews with business owners, artists, and community members, we were able to create four persons.</p>
+						</div>
+					</div>
 				</div>
 				<div class="col-lg-6 offset-lg-1 ">
 					<div class="persona projectSectionCol">
@@ -165,8 +162,12 @@
 		<div class="container content">
 			<div class="row">
 				<div class="col-lg-5">
-					<p class="title">Branding</p>
-					<p class="description">Our branding began with moodboarding and ended with the creation of a persona to embody our brand. These exercises helped make the brand tangible, enabling us to assign visual qualities and personality traits to it.</p>
+					<div class="stickyContainer">
+						<div class="stickyContent">
+							<p class="title">Branding</p>
+							<p class="description">Our branding began with moodboarding and ended with the creation of a persona to embody our brand. These exercises helped make the brand tangible, enabling us to assign visual qualities and personality traits to it.</p>
+						</div>
+					</div>
 				</div>
 				<div class="col-lg-6 offset-lg-1">
 					<!-- <div class="persona projectSectionCol">
@@ -199,65 +200,58 @@
 
 
 	<!--  Final Product -->
-	<section class="projectSection sectionYellow">
+	<section class="projectSection sectionBlue">
 		<div class="container content">
 			<div class="row">
 				<div class="col-lg-5">
-					<p class="title">Final Result</p>
-					<p class="description">I loved working on this project. Beyond getting to work with a subject matter in street art that is near and dear to me, it was a great experience in applying a lot of the interaction design and information architecture lessons I had learned at General Assembly, as well as exploring new grounds with the visual design process. I was very pleased with our final product, and believe that we accomplished the user goals we created at the outset of the project; we made an intuitive and visually appealing mobile app that allowed business owners, artists and community members to collaborate on public art in a meaningful way.</p>
+					<div class="stickyContainer">
+						<div class="stickyContent">
+							<p class="title">Final Result</p>
+							<p class="description">I loved working on this project. Beyond getting to work with a subject matter in street art that is near and dear to me, it was a great experience in applying a lot of the interaction design and information architecture lessons I had learned at General Assembly, as well as exploring new grounds with the visual design process. I was very pleased with our final product, and believe that we accomplished the user goals we created at the outset of the project; we made an intuitive and visually appealing mobile app that allowed business owners, artists and community members to collaborate on public art in a meaningful way.</p>
+						</div>
+					</div>	
 				</div>
 				<div class="col-lg-6 offset-lg-1">
 					<div class="contentCard contentStack">
 						<img class="contentCardImg" src="assets/img/monitorFinalProduct.png">
 					</div>
-				</div>
-			</div>
-			<div class="row imgRow">
-				<div class="col-lg-3 offset-lg-6 col-6">
-					<div class="contentCard contentStack">
-						<p class="title">Homepage</p>
-						<p class="item">See walls you have interacted with in the "My Walls" section, see what is open for voting with the “Walls in Your Area” section</p>
+					<div class="contentCard contentStack contentFlex imgRow">
+						<div class="projectSectionCol left">
+							<p class="title">Homepage</p>
+							<p class="item">See walls you have interacted with in the "My Walls" section, see what is open for voting with the “Walls in Your Area” section</p>
+						</div>
+						<div  class="right">
+							<img class="contentCardImg" src="assets/img/14ft-final-1.png">
+						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<img class="contentCardImg" src="assets/img/14ft-final-1.png">
-				</div>
-			</div>
-
-			<div class="row imgRow">
-				<div class="col-lg-3 offset-lg-6 col-6">
-					<div class="contentCard contentStack">
-						<p class="title">Profile Page</p>
-						<p class="item">Edit basic information and keep up with walls you have voted on</p>
+					<div class="contentCard contentStack contentFlex imgRow">
+						<div class="projectSectionCol left">
+							<p class="title">Profile Page</p>
+							<p class="item">Edit basic information and keep up with walls you have voted on</p>
+						</div>
+						<div  class="right">
+							<img class="contentCardImg" src="assets/img/14ft-final-2.png">
+						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<img class="contentCardImg" src="assets/img/14ft-final-2.png">
-				</div>
-			</div>
-
-
-			<div class="row imgRow">
-				<div class="col-lg-3 offset-lg-6 col-6">
-					<div class="contentCard contentStack">
-						<p class="title">Open Walls Page</p>
-						<p class="item">See artist submissions in your area and vote for your favorite</p>
+					<div class="contentCard contentStack contentFlex imgRow">
+						<div class="projectSectionCol left">
+							<p class="title">Open Walls Page</p>
+							<p class="item">See artist submissions in your area and vote for your favorite</p>
+						</div>
+						<div  class="right">
+							<img class="contentCardImg" src="assets/img/14ft-final-3.png">
+						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<img class="contentCardImg" src="assets/img/14ft-final-3.png">
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-3 offset-lg-6 col-6">
-					<div class="contentCard contentStack">
-						<p class="title">Artist Submission Page</p>
-						<p class="item">Learn more about the artist, their submission, and their work</p>
+					<div class="contentCard contentStack contentFlex imgRow">
+						<div class="projectSectionCol left">
+							<p class="title">Artist Submission Page</p>
+							<p class="item">Learn more about the artist, their submission, and their work</p>
+						</div>
+						<div  class="right">
+							<img class="contentCardImg" src="assets/img/14ft-final-4.png">
+						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<img class="contentCardImg" src="assets/img/14ft-final-4.png">
+
 				</div>
 			</div>
 		</div>
@@ -270,16 +264,25 @@
 				<div class="col-12">
 					<h1 class="footerTitle">Want to chat?</h1>
 					<div class="contactRow">
-						<img class="footerIcon" src="assets/img/email-icon.svg">
-						<span>campo.gabe@gmail.com</span>
+						<img class="footerIcon" src="assets/img/linkedin-icon.svg">
+						<a href="https://www.linkedin.com/in/gabriel-campo" target="_blank"><span>Gabriel Campo</span></a>
 					</div>
+					<div class="contactRow">
+						<img class="footerIcon" src="assets/img/email-icon.svg">
+						<a href="mailto:campo.gabe@gmail.com"><span>campo.gabe@gmail.com</span></a>
+					</div>
+					<div class="contactRow">
+						<img class="footerIcon" src="assets/img/resume-icon.svg">
+						<a href="assets/files/gc-resume.pdf" target="_blank"><span>CV</span></a>
+					</div>
+					
 					<div class="contactRow">
 						<img class="footerIcon" src="assets/img/phone-icon.svg">
 						<span>+1 786 348 8077</span>
 					</div>
 					<div class="contactRow">
 						<img class="footerIcon" src="assets/img/ig-icon.svg">
-						<span>@windows.92</span>
+						<span>@</span><a href="https://www.instagram.com/windows.92" target="_blank"><span>windows.92</span>
 					</div>
 				</div>
 			</div>

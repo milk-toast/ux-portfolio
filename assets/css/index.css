@@ -23,8 +23,9 @@ p {
     padding: 0;
 }
 
-a {
-    text-decoration: none!important;
+a, a:hover {
+    color: #090909;
+    text-decoration: underline!important;
 }
 
 ul {
@@ -85,11 +86,6 @@ header.homepage .left .pageTitle {
     font-size: 50px;
     color: #090909;
     font-family: silka-bold;
-}
-
-header.homepage .left .pageTitle {
-    position: relative;
-    z-index: 2
 }
 
 .header {
@@ -191,7 +187,7 @@ header.homepage .left .pageTitle {
     header.homepage .left .pageTitle,
     .project .projectRow .left .projectTitle,
     footer.footer1 .footerTitle {
-        font-size: 40px;
+        font-size: 35px;
     } 
     .header .leftBar {
         margin-bottom: 0px;
@@ -235,7 +231,7 @@ header.homepage .left .pageTitle {
     header.homepage .left .pageTitle,
     .project .projectRow .left .projectTitle,
     footer.footer1 .footerTitle {
-        font-size: 40px;
+        font-size: 38px;
     }  
     .header .leftBar {
         margin-bottom: 0px;
@@ -272,7 +268,7 @@ header.homepage .left .pageTitle {
     header.homepage .left .pageTitle,
     .project .projectRow .left .projectTitle,
     footer.footer1 .footerTitle {
-        font-size: 45px;
+        font-size: 38px;
     } 
     .header .leftBar {
         margin-bottom: 0px;

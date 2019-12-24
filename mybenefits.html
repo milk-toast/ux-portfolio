@@ -13,6 +13,7 @@
 	<!-- personal css files -->
 	<link rel="stylesheet" type="text/css" href="assets/css/header.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/animations.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/project.css">
 </head>
 <body>
@@ -29,24 +30,17 @@
 		  	<div class="collapse navbar-collapse myNavbarCollapse" id="navbarNavAltMarkup">
 		    	<div class="navbar-nav ml-auto myNavbarList">
 			      	<a class="nav-item nav-link" href="index.html">Projects</a>
-			      	<a class="nav-item nav-link" href="https://www.instagram.com/windows.92/">Photography</a>
-			      	<a class="nav-item nav-link" href="#">LinkedIn</a>
-			      	<a class="nav-item nav-link" href="#">About</a>
+			      	<a class="nav-item nav-link" href="#">Photography</a>
+			      	<a class="nav-item nav-link" href="about.html">About</a>
 		    	</div>
 		  	</div>
 		</div>
 	</nav>
 	<div class="navbarOverlay"></div>
-	<!-- @end navbar -->
   
 	<!-- @start header -->
 	<header class="projectHeader mbHeader">
-		<img class="headerImg" src="assets/img/hig-header.png">
-		<div class="container content">
-			<!-- <h1 class="pageTitle">
-				The Hartford's MyBenefits
-			</h1> -->
-		</div>
+		<img class="headerImg fadeinbottom" src="assets/img/hig-header.png">
 	</header>
 	<!-- @end header -->
 
@@ -123,7 +117,7 @@
 	<section class="projectSection">
 		<div class="container content">
 			<div class="row">
-				<div class="col-lg-5">
+				<div class="col-md-5">
 					<div class="stickyContainer">
 						<div class="stickyContent">
 							<p class="subtitle">Design System</p>
@@ -132,7 +126,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6 offset-lg-1">
+				<div class="col-md-6 offset-md-1">
 					<div class="contentCard contentStack">
 						<p class="title">Atoms</p>
 						<img class="contentCardImg" src="assets/img/mb-ds-atom.png">
@@ -157,7 +151,7 @@
 	<section class="projectSection">
 		<div class="container content">
 			<div class="row">
-				<div class="col-lg-5">
+				<div class="col-md-5">
 					<div class="stickyContainer">
 						<div class="stickyContent">
 							<p class="subtitle">Design System</p>
@@ -166,7 +160,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6 offset-lg-1">
+				<div class="col-md-6 offset-md-1">
 					<div class="contentCard contentStack">
 						<p class="title">Atoms</p>
 						<img class="contentCardImg" src="assets/img/mb-vd-atom.png">
@@ -189,19 +183,15 @@
 	<section class="projectSection">
 		<div class="container content">
 			<div class="row">
-				<div class="col-12">
+				<div class="col-md-9">
 					<p class="subtitle">Project Management</p>
 					<p class="title">Sprint Schedule</p>
+					<p class="description"> We worked very closely with both product and development teams to make sure we met business goals and designed technically-feasible designs. We adopted the following schedule to "sprint ahead" of development and testing.
+					</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-4">
-					<p class="description">
-						We worked very closely with both product and development teams to make sure we met business goals and designed technically-feasible designs<br><br>
-						We adopted the following schedule to "sprint ahead" of development and testing.
-					</p>
-				</div>
-				<div class="col-lg-8 contentCard">
+				<div class="col-md-9 contentCard">
 					<img class="contentCardImg" src="assets/img/mb-sprint-schedule.png" alt="">
 				</div>
 			</div>
@@ -257,7 +247,7 @@
 	<!-- @start subHeader -->
 	<section class="projectSection sectionBlue">
 		<div class="container content">
-			<div class="row imgRow">
+			<div class="row">
 				<div class="col-md-5">
 					<div class="stickyContainer">
 						<div class="stickyContent">
@@ -266,7 +256,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 offset-md-1 contentCard imgRow">
+				<div class="col-md-6 offset-md-1 contentCard">
 					<img class="contentCardImg imgRow" src="assets/img/hig-mb-final-1.png">
 					<img class="contentCardImg imgRow" src="assets/img/hig-mb-final-2.png">
 					<img class="contentCardImg imgRow" src="assets/img/hig-mb-final-3.png">
@@ -282,16 +272,25 @@
 				<div class="col-12">
 					<h1 class="footerTitle">Want to chat?</h1>
 					<div class="contactRow">
-						<img class="footerIcon" src="assets/img/email-icon.svg">
-						<span>campo.gabe@gmail.com</span>
+						<img class="footerIcon" src="assets/img/linkedin-icon.svg">
+						<a href="https://www.linkedin.com/in/gabriel-campo" target="_blank"><span>Gabriel Campo</span></a>
 					</div>
+					<div class="contactRow">
+						<img class="footerIcon" src="assets/img/email-icon.svg">
+						<a href="mailto:campo.gabe@gmail.com"><span>campo.gabe@gmail.com</span></a>
+					</div>
+					<div class="contactRow">
+						<img class="footerIcon" src="assets/img/resume-icon.svg">
+						<a href="assets/files/gc-resume.pdf" target="_blank"><span>CV</span></a>
+					</div>
+					
 					<div class="contactRow">
 						<img class="footerIcon" src="assets/img/phone-icon.svg">
 						<span>+1 786 348 8077</span>
 					</div>
 					<div class="contactRow">
 						<img class="footerIcon" src="assets/img/ig-icon.svg">
-						<span>@windows.92</span>
+						<span>@</span><a href="https://www.instagram.com/windows.92" target="_blank"><span>windows.92</span>
 					</div>
 				</div>
 			</div>

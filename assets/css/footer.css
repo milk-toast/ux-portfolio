@@ -1,3 +1,12 @@
+a, a:hover {
+    color: #090909;
+    text-decoration: underline!important;
+}
+
+.full {
+    height: 100%;
+}
+
 .footerTop {
     width: 100%;
     background-color: none;
@@ -6,7 +15,7 @@
 
 footer.footer1 {
     position: relative;
-    background-color: #fffdec;
+    background-color: #F3BC22;
     text-align: left
 }
 
@@ -33,7 +42,7 @@ footer.footer1 .footerIcon {
 footer.footer1 span {
     color: #090909;
     font-family: silka-regular;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* Mobile */

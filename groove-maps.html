@@ -13,6 +13,7 @@
 	<!-- personal css files -->
 	<link rel="stylesheet" type="text/css" href="assets/css/header.css">	
 	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/animations.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/project.css">
 </head>
 <body>
@@ -29,9 +30,8 @@
 		  	<div class="collapse navbar-collapse myNavbarCollapse" id="navbarNavAltMarkup">
 		    	<div class="navbar-nav ml-auto myNavbarList">
 			      	<a class="nav-item nav-link" href="index.html">Projects</a>
-			      	<a class="nav-item nav-link" href="https://www.instagram.com/windows.92/">Photography</a>
-			      	<a class="nav-item nav-link" href="#">LinkedIn</a>
-			      	<a class="nav-item nav-link" href="#">About</a>
+			      	<a class="nav-item nav-link" href="#">Photography</a>
+			      	<a class="nav-item nav-link" href="about.html">About</a>
 		    	</div>
 		  	</div>
 		</div>
@@ -41,7 +41,7 @@
   
 	<!-- @start header -->
 	<header class="projectHeader gmHeader">
-		<img class="headerImg" src="assets/img/gm-header.png">
+		<img class="headerImg fadeinbottom" src="assets/img/gm-header.png">
 	</header>
 	<!-- @end header -->
 
@@ -87,8 +87,9 @@
 		<div class="container content">
 			<div class="row">
 				<div class="col-lg-9">
-					<p class="title">Research</p>
-					<p class="description">We conducted 8 user interviews, with regular concert-goers ranging from age 23 to 43, and grouped our findings into three categories: Discovery, Communities and Chat.</p>
+					<p class="subtitle">Research</p>
+					<p class="title">Interviews & Synthesis</p>
+					<p class="description">We conducted 8 user interviews, with regular concert-goers ranging from age 23 to 43. We grouped our interview findings into three main categories: Discovery, Chat and Communities. This would form the basis around which we would construct personas and design the community features.</p>
 				</div>
 				<div class="col-12 contentCard contentStack">
 					<img class="contentCardImg" src="assets/img/gm-research-1.png">
@@ -101,10 +102,11 @@
 	</section>
 
 	<!-- Personas Section -->
-	<section class="projectSection sectionYellow">
+	<section class="projectSection">
 		<div class="container content">
 			<div class="row">
 				<div class="col-lg-5">
+					<p class="subtitle">Research</p>
 					<p class="title">Personas</p>
 					<p class="description">Using our findings from our 8 interviews we created two personas to design for. Each persona had a defining characteristic from the three research categories.</p>
 				</div>
@@ -137,12 +139,12 @@
 		<div class="container content">
 			<div class="row">
 				<div class="col-lg-5">
-					<p class="subtitle">Design</p>
+					<p class="subtitle">Interaction Design</p>
 					<p class="title">Sketches</p>
 					<p class="description">Our first design iteration was focused on determining the page structure of our three main pages - discover communities, community details and the chatroom. We completed a design studio exercise meant to diverge and explore many possibilities and then converge by picking the best attributes of each exploration.</p>
 				</div>
 				<div class="col-lg-6 offset-lg-1">
-					<div class="contentCard contentStack">
+					<div class="contentCard">
 						<img class="contentCardImg" src="assets/img/wireframe1.png" alt="">
 					</div>
 				</div>
@@ -166,124 +168,83 @@
 		<div class="container content">
 			<div class="row">
 				<div class="col-lg-9">
-					<p class="subtitle">Design</p>
+					<p class="subtitle">Interaction Design</p>
 					<p class="title">Wireframes</p>
 					<p class="description">After determining the general page structure, we looked to refine interaction details. Among the designs we tested were three options for filtering on specific genres in order to find communities.</p>
 				</div>
 
 			</div>
 			<div class="row">
-				<div class="col-12 contentCard contentStack">
+				<div class="col-12 contentCard">
 					<img class="contentCardImg" src="assets/img/gm-wireframes-all.png" alt="">
 				</div>
 			</div>
-				<!-- <div class="col-lg-3 offset-lg-1 col-6">
-					<div class="contentCard contentStack">
-						<p class="title">Pros</p>
-						<p class="item">Genre selection on page</p>
-						<p class="item">Location downplayed</p>
-						<p class="title">Cons</p>
-						<p class="item">Busy interface</p>
-						<p class="item">Separate page for location</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<img  class="contentCardImg" src="assets/img/sketch1.png" alt="">
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-3 offset-lg-6 col-6">
-					<div class="contentCard contentStack">
-						<p class="title">Pros</p>
-						<p class="article">Clean header communicating genre and location</p>
-						<p class="title">Cons</p>
-						<p class="article">Filtering mechanisms hidden behind header</p>
-						<p class="article">Setting new filters is multiple taps away</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<img  class="contentCardImg" src="assets/img/sketch2.png" alt="">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-3 offset-lg-6 col-6">
-					<div class="contentCard contentStack">
-						<p class="title">Pros</p>
-						<p class="article">Reusing one of the app’s established filter pages</p>
-						<p class="article">Clean interface</p>
-						<p class="title">Cons</p>
-						<p class="article">Separate page for filtering</p>
-						<p class="article">Selected genre and location are unclear</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<img  class="contentCardImg" src="assets/img/sketch3.png" alt="">
-				</div>
-			</div> -->
 		</div>
 	</section>
 
 	<!--  Final Product -->
-	<section class="projectSection">
+	<section class="projectSection sectionBlue">
 		<div class="container content">
 			<div class="row">
 				<div class="col-lg-5">
-					<p class="title">Final Result</p>
-					<p class="description">Groove Maps was my first experience working directly with a client on user experience design creation. It was a great opportunity to extend an existing design system around a new feature set. Our client was thrilled with our output in the short period of time we had, and loved our data-driven approach to design.</p>
-				</div>
-				<div class="col-lg-5 col-md-6 offset-lg-2 offset-md-3">
-					<div class="contentCard contentStack">
-						<img class="contentCardImg" src="assets/img/gm-final-1.png">
+					<div class="stickyContainer">
+						<div class="stickyContent">
+							<p class="title">Final Result</p>
+							<p class="description">Groove Maps was my first experience working directly with a client on user experience design creation. It was a great opportunity to extend an existing design system around a new feature set. Our client was thrilled with our output in the short period of time we had, and loved our data-driven approach to design.</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row imgRow">
-				<div class="col-lg-3 offset-lg-6 col-6">
-					<div class="contentCard contentStack">
-						<p class="title">Communities</p>
-						<p class="item">Find new music and meet other nearby Groove Maps users with similar music  tastes on the community page.</p>
+				<div class="col-lg-6 offset-lg-1">
+					<div class="contentCard contentStack contentFlex imgRow">
+						<div class="projectSectionCol left">
+							<p class="title">Homepage</p>
+							<p class="item">Search through and find communities based on your location and your specific genre interests</p>
+						</div>
+						<div  class="right">
+							<img class="contentCardImg" src="assets/img/gm-final-1.png">
+						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<img class="contentCardImg" src="assets/img/gm-final-2.png">
-				</div>
-			</div>
+					
+					<div class="contentCard contentStack contentFlex imgRow">
+						<div class="projectSectionCol left">
+							<p class="title">Community Page</p>
+							<p class="item">Connect with other people in a community to share music recommendations, talk venues, and plan meet ups</p>
+						</div>
+						<div  class="right">
+							<img class="contentCardImg" src="assets/img/gm-final-2.png">
+						</div>
+					</div>
 
-			<div class="row imgRow">
-				<div class="col-lg-3 offset-lg-6 col-6">
-					<div class="contentCard contentStack">
-						<p class="title">Chat Room</p>
-						<p class="item">Chat with the members of your community about specific topics, or keep it more casual in the general chat.</p>
+					<div class="contentCard contentStack contentFlex imgRow">
+						<div class="projectSectionCol left">
+							<p class="title">Chat Room</p>
+							<p class="item">Chat with the members of your community about specific topics, or keep it more casual in the general chat</p>
+						</div>
+						<div  class="right">
+							<img class="contentCardImg" src="assets/img/gm-final-3.png">
+						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<img class="contentCardImg" src="assets/img/gm-final-3.png">
-				</div>
-			</div>
 
-
-			<div class="row imgRow">
-				<div class="col-lg-3 offset-lg-6 col-6">
-					<div class="contentCard contentStack">
-						<p class="title">Profile Page</p>
-						<p class="item">With the new social functionality, the profile page takes on a new role - your home for your messages, communities and friends.</p>
+					<div class="contentCard contentStack contentFlex imgRow">
+						<div class="projectSectionCol left">
+							<p class="title">Profile Page</p>
+							<p class="item">With the new social functionality, the profile page takes on a new role - your home for your messages, communities and friends</p>
+						</div>
+						<div  class="right">
+							<img class="contentCardImg" src="assets/img/gm-final-4.png">
+						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<img class="contentCardImg" src="assets/img/gm-final-4.png">
-				</div>
-			</div>
 
-			<div class="row">
-				<div class="col-lg-3 offset-lg-6 col-6">
-					<div class="contentCard contentStack">
-						<p class="title">Direct Messages</p>
-						<p class="item">Connect with other users direcltly, through direct messages.</p>
+					<div class="contentCard contentStack contentFlex imgRow">
+						<div class="projectSectionCol left">
+							<p class="title">Direct Messages</p>
+							<p class="item">Connect with other users direcltly, through direct messages</p>
+						</div>
+						<div  class="right">
+							<img class="contentCardImg" src="assets/img/gm-final-5.png">
+						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-6">
-					<img class="contentCardImg" src="assets/img/gm-final-5.png">
+
 				</div>
 			</div>
 		</div>
@@ -296,16 +257,25 @@
 				<div class="col-12">
 					<h1 class="footerTitle">Want to chat?</h1>
 					<div class="contactRow">
-						<img class="footerIcon" src="assets/img/email-icon.svg">
-						<span>campo.gabe@gmail.com</span>
+						<img class="footerIcon" src="assets/img/linkedin-icon.svg">
+						<a href="https://www.linkedin.com/in/gabriel-campo" target="_blank"><span>Gabriel Campo</span></a>
 					</div>
+					<div class="contactRow">
+						<img class="footerIcon" src="assets/img/email-icon.svg">
+						<a href="mailto:campo.gabe@gmail.com"><span>campo.gabe@gmail.com</span></a>
+					</div>
+					<div class="contactRow">
+						<img class="footerIcon" src="assets/img/resume-icon.svg">
+						<a href="assets/files/gc-resume.pdf" target="_blank"><span>CV</span></a>
+					</div>
+					
 					<div class="contactRow">
 						<img class="footerIcon" src="assets/img/phone-icon.svg">
 						<span>+1 786 348 8077</span>
 					</div>
 					<div class="contactRow">
 						<img class="footerIcon" src="assets/img/ig-icon.svg">
-						<span>@windows.92</span>
+						<span>@</span><a href="https://www.instagram.com/windows.92" target="_blank"><span>windows.92</span>
 					</div>
 				</div>
 			</div>

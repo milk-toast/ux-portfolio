@@ -1,0 +1,93 @@
+html,
+body {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+	background-color: #F3BC22;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'silka-regular', sans-serif;
+    color: #090909;
+    letter-spacing: -.64px
+}
+
+p {
+    margin: 0;
+    padding: 0
+}
+
+a, a:hover {
+	color: #090909;
+    text-decoration: underline!important;
+}
+
+ul {
+    list-style-type: none
+}
+
+@font-face {
+    font-family: silka-extralightitalic;
+    src: url(../fonts/Silka-ExtraLightItalic.otf)
+}
+
+@font-face {
+    font-family: silka-light;
+    src: url(../fonts/Silka-Light.otf)
+}
+
+@font-face {
+    font-family: silka-regular;
+    src: url(../fonts/Silka-Regular.otf)
+}
+
+@font-face {
+    font-family: silka-semibolditalic;
+    src: url(../fonts/Silka-SemiBoldItalic.otf)
+}
+
+@font-face {
+    font-family: silka-bold;
+    src: url(../fonts/Silka-Bold.otf)
+}
+
+@font-face {
+    font-family: silka-bolditalic;
+    src: url(../fonts/Silka-BoldItalic.otf)
+}
+
+.about .content {
+	padding-top: 100px;
+}
+
+.about .content .title {
+	font-family: silka-bold;
+}
+
+.about .content .description {
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+
+.about .content .contactRow {
+	margin: 20px 0;
+}
+
+.about .content .contactRow .footerIcon{
+	width: 30px;
+    height: auto;
+    margin-right: 25px;
+}
+
+
+
+.about .content .avatar {
+	width: 100%;
+}
