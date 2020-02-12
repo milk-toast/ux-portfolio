@@ -1,4 +1,4 @@
-.hidden {
+.hidden, .hiddenBar {
     opacity: 0;
 }
 
@@ -89,5 +89,44 @@
     to {
         
         opacity:1;
+    }
+}
+
+.wipeinleft {
+    animation: wipeinleft 1s;
+    -moz-animation: wipeinleft 1s;
+    -webkit-animation: wipeinleft 1s;
+    -o-animation: wipeinleft 1s;
+}
+@keyframes wipeinleft {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%
+    }
+}
+@-moz-keyframes wipeinleft { /* Firefox */
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%
+    }
+}
+@-webkit-keyframes wipeinleft { /* Safari and Chrome */
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%
+    }
+}
+@-o-keyframes wipeinleft { /* Opera */
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%
     }
 }

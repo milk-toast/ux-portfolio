@@ -12,11 +12,12 @@ $(document).ready(function(){
 });
 
 (function() {
-  var elements;
+  var elements, bars;
   var windowHeight;
 
   function init() {
     elements = document.querySelectorAll('.hidden');
+    bars = document.querySelectorAll('.hiddenBar');
     windowHeight = window.innerHeight;
   }
 
@@ -28,6 +29,15 @@ $(document).ready(function(){
       if (positionFromTop - windowHeight <= -100) {
         element.classList.add('fadeinbottom');
         element.classList.remove('hidden');
+      }
+    }
+    for (var i = 0; i < bars.length; i++) {
+      var bar = bars[i];
+      var positionFromTop = bars[i].getBoundingClientRect().top;
+
+      if (positionFromTop - windowHeight <= 0) {
+        bar.classList.add('wipeinleft');
+        bar.classList.remove('hiddenBar');
       }
     }
   }
