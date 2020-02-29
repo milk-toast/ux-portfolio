@@ -80,6 +80,9 @@ header.projectHeader {
     justify-content: center;
 }
 
+header.lobHeader {
+    background-color: #0095F3;
+}
 
 header.leaveHeader {
     background-color: #F3BC22;
