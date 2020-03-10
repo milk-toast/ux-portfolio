@@ -330,12 +330,6 @@ header.projectHeader .pageTitle {
     .projectSection .content .title {
         font-size: 38px;
     }
-    .projectSection .content .stagger1 {
-        margin-top: 0px;
-    }
-    .projectSection .content .stagger2 {
-        margin-top: 0px;
-    }
     .projectSectionCol {
         margin-bottom: 50px;
     }
@@ -355,15 +349,6 @@ header.projectHeader .pageTitle {
     .projectSectionCol {
         margin-bottom: 0px;
     }
-    .projectSection .content .stagger1 {
-        margin-top: 70px;
-    }
-    .projectSection .content .stagger2 {
-        margin-top: 200px;
-    }  
-    /*.spacer {
-        height: 100px;
-    }*/
 }
 
 /* Large */
@@ -373,10 +358,7 @@ header.projectHeader .pageTitle {
     }
     .projectSection .content .title {
         font-size: 50px;
-    } 
-    /*.spacer {
-        height: 200px;
-    }*/
+    }
 }
 
 /* XLarge */
