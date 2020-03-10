@@ -211,6 +211,7 @@ header.projectHeader .pageTitle {
     font-size: 14px;
     border-bottom: solid 2px black;
     margin-bottom: 10px;
+    line-height: 30px;
 }
 
 .projectSection .content .projectSectionCol .contentCol .title span {
